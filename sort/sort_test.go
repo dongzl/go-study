@@ -78,7 +78,5 @@ func TestString_IsSorted(t *testing.T) {
 		"z",
 	}
 
-	ret2 := sort.IsSorted(strs2)
-
-	fmt.Printf("%+v\n", ret2)
+	fmt.Printf("%+v\n", sort.StringsAreSorted(strs2))
 }
