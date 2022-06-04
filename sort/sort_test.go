@@ -61,22 +61,10 @@ func TestString_sort(t *testing.T) {
 }
 
 func TestString_IsSorted(t *testing.T) {
-	strs := MyStringList{
-		"a",
-		"b",
-		"z",
-		"t",
-	}
-
+	strs := MyStringList{"a", "b", "z", "t"}
 	ret := sort.IsSorted(strs)
-
 	fmt.Printf("%+v\n", ret)
 
-	strs2 := MyStringList{
-		"a",
-		"b",
-		"z",
-	}
-
+	strs2 := MyStringList{"a", "b", "z"}
 	fmt.Printf("%+v\n", sort.StringsAreSorted(strs2))
 }
