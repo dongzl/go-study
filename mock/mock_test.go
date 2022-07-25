@@ -8,6 +8,7 @@ import (
 
 // https://geektutu.com/post/gee.html
 // https://geektutu.com/post/quick-gomock.html
+// mockgen -source=db.go -destination=db_mock.go -package=main
 
 func TestGetFromDB(t *testing.T) {
 	ctrl := gomock.NewController(t)
