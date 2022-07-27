@@ -5,6 +5,7 @@ import (
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"testing"
+	"time"
 )
 
 func Test_sequence(t *testing.T) {
@@ -16,8 +17,9 @@ func Test_sequence(t *testing.T) {
 	}
 	defer db.Close() // 注意这行代码要写在上面err判断的下面
 
+	start := time.Now().Unix()
 	sqlStr := "INSERT INTO student (uid, name, score, nickname, gender, birth_year, created_at, modified_at) VALUES (?, ?, 95, ?, 0, 16, NOW(), NOW());"
-	for i := 41; i < 1000; i++ {
+	for i := 0; i < 1000; i++ {
 		ret, err := db.Exec(sqlStr, i, fmt.Sprintf("%s_%d", "scott", i), fmt.Sprintf("%s_%d", "nc_scott", i))
 		if err != nil {
 			fmt.Printf("insert failed, err:%v\n", err)
@@ -30,4 +32,5 @@ func Test_sequence(t *testing.T) {
 		}
 		fmt.Printf("insert success, the id is %d.\n", theID)
 	}
+	fmt.Println(time.Now().Unix() - start)
 }
