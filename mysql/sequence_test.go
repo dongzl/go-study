@@ -10,7 +10,7 @@ import (
 
 func Test_sequence(t *testing.T) {
 	// DSN:Data Source Name
-	dsn := "dksl:123456@tcp(127.0.0.1:13306)/employees"
+	dsn := "root:123456@tcp(127.0.0.1:13306)/employees"
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
 		panic(err)
