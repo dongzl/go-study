@@ -6,6 +6,8 @@ import (
 	"log"
 )
 
+// https://www.jianshu.com/p/d2c8fdd24b0f
+
 type MessageSenderService struct {
 	message.UnimplementedMessageSenderServer
 	Service *SenderService
