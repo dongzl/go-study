@@ -1,0 +1,112 @@
+columns:
+  page_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: page_size
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  compress_ops:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: compress_ops
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  compress_ops_ok:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: compress_ops_ok
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  compress_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: compress_time
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  uncompress_ops:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: uncompress_ops
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  uncompress_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: uncompress_time
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: INNODB_CMP
+columns:
+  page_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: page_size
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  compress_ops:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: compress_ops
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  compress_ops_ok:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: compress_ops_ok
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  compress_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: compress_time
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  uncompress_ops:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: uncompress_ops
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  uncompress_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: uncompress_time
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: INNODB_CMP

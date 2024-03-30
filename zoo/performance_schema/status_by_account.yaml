@@ -1,0 +1,76 @@
+columns:
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: USER
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: HOST
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: VARIABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_value:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: VARIABLE_VALUE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: status_by_account
+columns:
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: USER
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: HOST
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: VARIABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_value:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: VARIABLE_VALUE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: status_by_account

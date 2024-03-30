@@ -1,0 +1,76 @@
+columns:
+  id:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  for_col_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: FOR_COL_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ref_col_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: REF_COL_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  pos:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: POS
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: INNODB_SYS_FOREIGN_COLS
+columns:
+  id:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  for_col_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: FOR_COL_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ref_col_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: REF_COL_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  pos:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: POS
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: INNODB_SYS_FOREIGN_COLS

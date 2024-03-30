@@ -1,0 +1,40 @@
+columns:
+  sys_version:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: sys_version
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  mysql_version:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: mysql_version
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: version
+columns:
+  sys_version:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: sys_version
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  mysql_version:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: mysql_version
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: version

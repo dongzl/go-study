@@ -1,0 +1,40 @@
+columns:
+  variable_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: variable_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_value:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: variable_value
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ps_check_lost_instrumentation
+columns:
+  variable_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: variable_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_value:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: variable_value
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ps_check_lost_instrumentation

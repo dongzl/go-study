@@ -1,0 +1,76 @@
+columns:
+  thread_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: thread_id
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  ssl_version:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ssl_version
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ssl_cipher:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ssl_cipher
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ssl_sessions_reused:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ssl_sessions_reused
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: session_ssl_status
+columns:
+  thread_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: thread_id
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  ssl_version:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ssl_version
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ssl_cipher:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ssl_cipher
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ssl_sessions_reused:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ssl_sessions_reused
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: session_ssl_status

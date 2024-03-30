@@ -1,0 +1,66 @@
+columns:
+  time_zone_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Time_zone_id
+    nullable: false
+    primaryKey: true
+    unsigned: true
+    visible: true
+  transition_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Transition_time
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  transition_type_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Transition_type_id
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: time_zone_transition
+columns:
+  time_zone_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Time_zone_id
+    nullable: false
+    primaryKey: true
+    unsigned: true
+    visible: true
+  transition_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Transition_time
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  transition_type_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Transition_type_id
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: time_zone_transition

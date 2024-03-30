@@ -1,0 +1,58 @@
+columns:
+  file_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: FILE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  event_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: EVENT_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  open_count:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: OPEN_COUNT
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: file_instances
+columns:
+  file_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: FILE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  event_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: EVENT_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  open_count:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: OPEN_COUNT
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: file_instances

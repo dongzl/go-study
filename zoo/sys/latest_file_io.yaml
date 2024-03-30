@@ -1,0 +1,94 @@
+columns:
+  thread:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: thread
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  file:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: file
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  operation:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: operation
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  requested:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: requested
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: latest_file_io
+columns:
+  thread:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: thread
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  file:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: file
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  operation:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: operation
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  requested:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: requested
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: latest_file_io

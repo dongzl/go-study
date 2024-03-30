@@ -1,0 +1,162 @@
+columns:
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Host
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  db:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Db
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: User
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Table_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  grantor:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Grantor
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timestamp:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: Timestamp
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_priv:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Table_priv
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  column_priv:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Column_priv
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+  grantor:
+    name: Grantor
+    unique: false
+name: tables_priv
+columns:
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Host
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  db:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Db
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: User
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Table_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  grantor:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Grantor
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timestamp:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: Timestamp
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_priv:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Table_priv
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  column_priv:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Column_priv
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+  grantor:
+    name: Grantor
+    unique: false
+name: tables_priv

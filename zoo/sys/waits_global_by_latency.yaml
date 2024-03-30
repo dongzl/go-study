@@ -1,0 +1,94 @@
+columns:
+  events:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: events
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: total
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: total_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  avg_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: avg_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  max_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: max_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: waits_global_by_latency
+columns:
+  events:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: events
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: total
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: total_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  avg_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: avg_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  max_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: max_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: waits_global_by_latency

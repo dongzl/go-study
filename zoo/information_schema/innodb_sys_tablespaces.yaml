@@ -1,0 +1,202 @@
+columns:
+  space:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: SPACE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  flag:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: FLAG
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  file_format:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: FILE_FORMAT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  row_format:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROW_FORMAT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  page_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PAGE_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  zip_page_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ZIP_PAGE_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  space_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SPACE_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  fs_block_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: FS_BLOCK_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  file_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: FILE_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  allocated_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ALLOCATED_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: INNODB_SYS_TABLESPACES
+columns:
+  space:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: SPACE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  flag:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: FLAG
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  file_format:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: FILE_FORMAT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  row_format:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROW_FORMAT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  page_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PAGE_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  zip_page_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ZIP_PAGE_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  space_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SPACE_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  fs_block_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: FS_BLOCK_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  file_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: FILE_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  allocated_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ALLOCATED_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: INNODB_SYS_TABLESPACES

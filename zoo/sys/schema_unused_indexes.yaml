@@ -1,0 +1,58 @@
+columns:
+  object_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: object_schema
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  object_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: object_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  index_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: index_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: schema_unused_indexes
+columns:
+  object_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: object_schema
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  object_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: object_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  index_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: index_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: schema_unused_indexes

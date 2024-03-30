@@ -1,0 +1,48 @@
+columns:
+  transition_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Transition_time
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  correction:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Correction
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: time_zone_leap_second
+columns:
+  transition_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Transition_time
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  correction:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Correction
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: time_zone_leap_second

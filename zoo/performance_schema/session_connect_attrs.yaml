@@ -1,0 +1,76 @@
+columns:
+  processlist_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PROCESSLIST_ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  attr_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: ATTR_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  attr_value:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: ATTR_VALUE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ordinal_position:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ORDINAL_POSITION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: session_connect_attrs
+columns:
+  processlist_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PROCESSLIST_ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  attr_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: ATTR_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  attr_value:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: ATTR_VALUE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ordinal_position:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ORDINAL_POSITION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: session_connect_attrs

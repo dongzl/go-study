@@ -1,0 +1,144 @@
+columns:
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Host
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: User
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  proxied_host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Proxied_host
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  proxied_user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Proxied_user
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  with_grant:
+    caseSensitive: false
+    dataType: -6
+    generated: false
+    name: With_grant
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  grantor:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Grantor
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timestamp:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: Timestamp
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+  grantor:
+    name: Grantor
+    unique: false
+name: proxies_priv
+columns:
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Host
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: User
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  proxied_host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Proxied_host
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  proxied_user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Proxied_user
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  with_grant:
+    caseSensitive: false
+    dataType: -6
+    generated: false
+    name: With_grant
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  grantor:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Grantor
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timestamp:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: Timestamp
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+  grantor:
+    name: Grantor
+    unique: false
+name: proxies_priv

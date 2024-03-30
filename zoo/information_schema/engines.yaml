@@ -1,0 +1,112 @@
+columns:
+  engine:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ENGINE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  support:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SUPPORT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  comment:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: COMMENT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  transactions:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TRANSACTIONS
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  xa:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: XA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  savepoints:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SAVEPOINTS
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ENGINES
+columns:
+  engine:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ENGINE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  support:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SUPPORT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  comment:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: COMMENT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  transactions:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TRANSACTIONS
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  xa:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: XA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  savepoints:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SAVEPOINTS
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ENGINES

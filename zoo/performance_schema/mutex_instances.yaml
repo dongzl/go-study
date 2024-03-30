@@ -1,0 +1,58 @@
+columns:
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  object_instance_begin:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: OBJECT_INSTANCE_BEGIN
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  locked_by_thread_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: LOCKED_BY_THREAD_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: mutex_instances
+columns:
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  object_instance_begin:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: OBJECT_INSTANCE_BEGIN
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  locked_by_thread_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: LOCKED_BY_THREAD_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: mutex_instances

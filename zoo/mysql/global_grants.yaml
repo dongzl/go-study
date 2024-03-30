@@ -1,0 +1,84 @@
+columns:
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: USER
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: HOST
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  priv:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: PRIV
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  with_grant_option:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: WITH_GRANT_OPTION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: global_grants
+columns:
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: USER
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: HOST
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  priv:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: PRIV
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  with_grant_option:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: WITH_GRANT_OPTION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: global_grants

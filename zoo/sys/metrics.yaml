@@ -1,0 +1,76 @@
+columns:
+  variable_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Variable_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_value:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: Variable_value
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Type
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  enabled:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Enabled
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: metrics
+columns:
+  variable_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Variable_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_value:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: Variable_value
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Type
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  enabled:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Enabled
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: metrics

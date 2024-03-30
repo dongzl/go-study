@@ -1,0 +1,76 @@
+columns:
+  object_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: object_schema
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  object_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: object_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  rows_full_scanned:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_full_scanned
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: schema_tables_with_full_table_scans
+columns:
+  object_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: object_schema
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  object_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: object_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  rows_full_scanned:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_full_scanned
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: schema_tables_with_full_table_scans

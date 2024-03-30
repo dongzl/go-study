@@ -1,0 +1,38 @@
+columns:
+  character_set_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CHARACTER_SET_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  default_collate_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: DEFAULT_COLLATE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  description:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: DESCRIPTION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  maxlen:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: MAXLEN
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: CHARACTER_SETS

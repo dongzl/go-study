@@ -1,0 +1,130 @@
+columns:
+  constraint_catalog:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_CATALOG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TABLE_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  enforced:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ENFORCED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: TABLE_CONSTRAINTS
+columns:
+  constraint_catalog:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_CATALOG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TABLE_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  enforced:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ENFORCED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: TABLE_CONSTRAINTS

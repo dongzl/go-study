@@ -1,0 +1,90 @@
+columns:
+  help_category_id:
+    caseSensitive: false
+    dataType: 5
+    generated: false
+    name: help_category_id
+    nullable: false
+    primaryKey: true
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  parent_category_id:
+    caseSensitive: false
+    dataType: 5
+    generated: false
+    name: parent_category_id
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  url:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: url
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+  name:
+    name: name
+    unique: false
+name: help_category
+columns:
+  help_category_id:
+    caseSensitive: false
+    dataType: 5
+    generated: false
+    name: help_category_id
+    nullable: false
+    primaryKey: true
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  parent_category_id:
+    caseSensitive: false
+    dataType: 5
+    generated: false
+    name: parent_category_id
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  url:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: url
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+  name:
+    name: name
+    unique: false
+name: help_category

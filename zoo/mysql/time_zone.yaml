@@ -1,0 +1,48 @@
+columns:
+  time_zone_id:
+    caseSensitive: false
+    dataType: 4
+    generated: true
+    name: Time_zone_id
+    nullable: false
+    primaryKey: true
+    unsigned: true
+    visible: true
+  use_leap_seconds:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Use_leap_seconds
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: time_zone
+columns:
+  time_zone_id:
+    caseSensitive: false
+    dataType: 4
+    generated: true
+    name: Time_zone_id
+    nullable: false
+    primaryKey: true
+    unsigned: true
+    visible: true
+  use_leap_seconds:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Use_leap_seconds
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: time_zone

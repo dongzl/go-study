@@ -1,0 +1,184 @@
+columns:
+  host:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: host
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  statement:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: statement
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: total
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: total_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  max_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: max_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  lock_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: lock_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  rows_sent:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_sent
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  rows_examined:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_examined
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  rows_affected:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_affected
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  full_scans:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: full_scans
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: host_summary_by_statement_type
+columns:
+  host:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: host
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  statement:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: statement
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: total
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: total_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  max_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: max_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  lock_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: lock_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  rows_sent:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_sent
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  rows_examined:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_examined
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  rows_affected:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_affected
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  full_scans:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: full_scans
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: host_summary_by_statement_type

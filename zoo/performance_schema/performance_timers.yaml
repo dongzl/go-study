@@ -1,0 +1,76 @@
+columns:
+  timer_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TIMER_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timer_frequency:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: TIMER_FREQUENCY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timer_resolution:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: TIMER_RESOLUTION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timer_overhead:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: TIMER_OVERHEAD
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: performance_timers
+columns:
+  timer_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TIMER_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timer_frequency:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: TIMER_FREQUENCY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timer_resolution:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: TIMER_RESOLUTION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timer_overhead:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: TIMER_OVERHEAD
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: performance_timers

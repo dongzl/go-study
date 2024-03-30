@@ -1,0 +1,292 @@
+columns:
+  query:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: query
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  db:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: db
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  full_scan:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: full_scan
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  exec_count:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: exec_count
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  err_count:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: err_count
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  warn_count:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: warn_count
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: total_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  max_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: max_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  avg_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: avg_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  rows_sent:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_sent
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  rows_sent_avg:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: rows_sent_avg
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  rows_examined:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_examined
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  rows_examined_avg:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: rows_examined_avg
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  first_seen:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: first_seen
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  last_seen:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: last_seen
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  digest:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: digest
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: statements_with_runtimes_in_95th_percentile
+columns:
+  query:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: query
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  db:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: db
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  full_scan:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: full_scan
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  exec_count:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: exec_count
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  err_count:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: err_count
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  warn_count:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: warn_count
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: total_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  max_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: max_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  avg_latency:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: avg_latency
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  rows_sent:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_sent
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  rows_sent_avg:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: rows_sent_avg
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  rows_examined:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: rows_examined
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  rows_examined_avg:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: rows_examined_avg
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  first_seen:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: first_seen
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  last_seen:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: last_seen
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  digest:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: digest
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: statements_with_runtimes_in_95th_percentile

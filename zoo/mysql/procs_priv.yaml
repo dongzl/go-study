@@ -1,0 +1,162 @@
+columns:
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Host
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  db:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Db
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: User
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  routine_name:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: Routine_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  routine_type:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: Routine_type
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  grantor:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Grantor
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  proc_priv:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Proc_priv
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timestamp:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: Timestamp
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+  grantor:
+    name: Grantor
+    unique: false
+name: procs_priv
+columns:
+  host:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Host
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  db:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Db
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: User
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  routine_name:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: Routine_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  routine_type:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: Routine_type
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  grantor:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: Grantor
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  proc_priv:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Proc_priv
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  timestamp:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: Timestamp
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+  grantor:
+    name: Grantor
+    unique: false
+name: procs_priv

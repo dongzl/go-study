@@ -1,0 +1,310 @@
+columns:
+  thread_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: THREAD_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PROCESSLIST_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  processlist_user:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_USER
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_host:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_HOST
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_db:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_DB
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_command:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_COMMAND
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PROCESSLIST_TIME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_state:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_STATE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_info:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: PROCESSLIST_INFO
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  parent_thread_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PARENT_THREAD_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  role:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROLE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  instrumented:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: INSTRUMENTED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  history:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: HISTORY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  connection_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONNECTION_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  thread_os_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: THREAD_OS_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: threads
+columns:
+  thread_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: THREAD_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PROCESSLIST_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  processlist_user:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_USER
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_host:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_HOST
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_db:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_DB
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_command:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_COMMAND
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_time:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PROCESSLIST_TIME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_state:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PROCESSLIST_STATE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  processlist_info:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: PROCESSLIST_INFO
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  parent_thread_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PARENT_THREAD_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  role:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROLE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  instrumented:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: INSTRUMENTED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  history:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: HISTORY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  connection_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONNECTION_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  thread_os_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: THREAD_OS_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: threads

@@ -1,0 +1,112 @@
+columns:
+  host:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: host
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  current_count_used:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: current_count_used
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  current_allocated:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: current_allocated
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  current_avg_alloc:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: current_avg_alloc
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  current_max_alloc:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: current_max_alloc
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total_allocated:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: total_allocated
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: memory_by_host_by_current_bytes
+columns:
+  host:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: host
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  current_count_used:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: current_count_used
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  current_allocated:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: current_allocated
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  current_avg_alloc:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: current_avg_alloc
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  current_max_alloc:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: current_max_alloc
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total_allocated:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: total_allocated
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: memory_by_host_by_current_bytes

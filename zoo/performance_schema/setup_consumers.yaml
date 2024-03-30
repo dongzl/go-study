@@ -1,0 +1,40 @@
+columns:
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  enabled:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ENABLED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: setup_consumers
+columns:
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  enabled:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ENABLED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: setup_consumers

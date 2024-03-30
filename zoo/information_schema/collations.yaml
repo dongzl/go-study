@@ -1,0 +1,112 @@
+columns:
+  collation_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: COLLATION_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  character_set_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CHARACTER_SET_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_default:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_DEFAULT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_compiled:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_COMPILED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sortlen:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: SORTLEN
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: COLLATIONS
+columns:
+  collation_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: COLLATION_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  character_set_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CHARACTER_SET_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_default:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_DEFAULT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_compiled:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_COMPILED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sortlen:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: SORTLEN
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: COLLATIONS

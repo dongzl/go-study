@@ -1,0 +1,156 @@
+columns:
+  database_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: database_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: table_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  index_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: index_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  last_update:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: last_update
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  stat_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: stat_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  stat_value:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: stat_value
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  sample_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: sample_size
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  stat_description:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: stat_description
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: innodb_index_stats
+columns:
+  database_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: database_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: table_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  index_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: index_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  last_update:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: last_update
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  stat_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: stat_name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  stat_value:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: stat_value
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  sample_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: sample_size
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  stat_description:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: stat_description
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: innodb_index_stats

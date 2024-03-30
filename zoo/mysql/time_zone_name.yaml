@@ -1,0 +1,48 @@
+columns:
+  name:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: Name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  time_zone_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Time_zone_id
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: time_zone_name
+columns:
+  name:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: Name
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  time_zone_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: Time_zone_id
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+indexes:
+  primary:
+    name: PRIMARY
+    unique: false
+name: time_zone_name
