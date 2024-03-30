@@ -42,7 +42,7 @@ func write(conn *zk.Conn, path string, child string, dir string) {
 	fmt.Printf("%s 的子节点为 %s\n", path, child)
 	leaf, _, _ := conn.Get(path + "/" + child + "/versions/0")
 	//fmt.Printf("%s 的值为 %s\n", path, string(leaf))
-	f, err := os.OpenFile("zoo/"+dir+"/"+child+".yaml", os.O_RDONLY|os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0666)
+	f, err := os.OpenFile("zoo/"+dir+"/"+child+".yaml", os.O_RDONLY|os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0666)
 	defer f.Close()
 	if err != nil {
 		log.Println("open file error :", err)

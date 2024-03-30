@@ -9,14 +9,3 @@ columns:
     unsigned: true
     visible: true
 name: INNODB_FT_BEING_DELETED
-columns:
-  doc_id:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: DOC_ID
-    nullable: false
-    primaryKey: false
-    unsigned: true
-    visible: true
-name: INNODB_FT_BEING_DELETED

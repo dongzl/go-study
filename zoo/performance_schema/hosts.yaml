@@ -27,32 +27,3 @@ columns:
     unsigned: false
     visible: true
 name: hosts
-columns:
-  host:
-    caseSensitive: true
-    dataType: 1
-    generated: false
-    name: HOST
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-  current_connections:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: CURRENT_CONNECTIONS
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-  total_connections:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: TOTAL_CONNECTIONS
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-name: hosts

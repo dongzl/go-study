@@ -27,32 +27,3 @@ columns:
     unsigned: true
     visible: true
 name: INNODB_SYS_FIELDS
-columns:
-  index_id:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: INDEX_ID
-    nullable: false
-    primaryKey: false
-    unsigned: true
-    visible: true
-  name:
-    caseSensitive: false
-    dataType: 12
-    generated: false
-    name: NAME
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-  pos:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: POS
-    nullable: false
-    primaryKey: false
-    unsigned: true
-    visible: true
-name: INNODB_SYS_FIELDS

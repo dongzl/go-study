@@ -27,32 +27,3 @@ columns:
     unsigned: true
     visible: true
 name: INNODB_SYS_VIRTUAL
-columns:
-  table_id:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: TABLE_ID
-    nullable: false
-    primaryKey: false
-    unsigned: true
-    visible: true
-  pos:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: POS
-    nullable: false
-    primaryKey: false
-    unsigned: true
-    visible: true
-  base_pos:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: BASE_POS
-    nullable: false
-    primaryKey: false
-    unsigned: true
-    visible: true
-name: INNODB_SYS_VIRTUAL

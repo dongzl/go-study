@@ -31,36 +31,3 @@ indexes:
     name: PRIMARY
     unique: false
 name: component
-columns:
-  component_id:
-    caseSensitive: true
-    dataType: 4
-    generated: true
-    name: component_id
-    nullable: false
-    primaryKey: true
-    unsigned: true
-    visible: true
-  component_group_id:
-    caseSensitive: true
-    dataType: 4
-    generated: false
-    name: component_group_id
-    nullable: false
-    primaryKey: false
-    unsigned: true
-    visible: true
-  component_urn:
-    caseSensitive: true
-    dataType: -1
-    generated: false
-    name: component_urn
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-indexes:
-  primary:
-    name: PRIMARY
-    unique: false
-name: component

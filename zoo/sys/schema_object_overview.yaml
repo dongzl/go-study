@@ -27,32 +27,3 @@ columns:
     unsigned: false
     visible: true
 name: schema_object_overview
-columns:
-  db:
-    caseSensitive: false
-    dataType: 12
-    generated: false
-    name: db
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-  object_type:
-    caseSensitive: false
-    dataType: 12
-    generated: false
-    name: object_type
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-  count:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: count
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-name: schema_object_overview

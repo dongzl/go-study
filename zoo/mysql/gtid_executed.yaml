@@ -31,36 +31,3 @@ indexes:
     name: PRIMARY
     unique: false
 name: gtid_executed
-columns:
-  source_uuid:
-    caseSensitive: false
-    dataType: 1
-    generated: false
-    name: source_uuid
-    nullable: false
-    primaryKey: true
-    unsigned: false
-    visible: true
-  interval_start:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: interval_start
-    nullable: false
-    primaryKey: true
-    unsigned: false
-    visible: true
-  interval_end:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: interval_end
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-indexes:
-  primary:
-    name: PRIMARY
-    unique: false
-name: gtid_executed

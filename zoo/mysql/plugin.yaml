@@ -22,27 +22,3 @@ indexes:
     name: PRIMARY
     unique: false
 name: plugin
-columns:
-  name:
-    caseSensitive: false
-    dataType: 12
-    generated: false
-    name: name
-    nullable: false
-    primaryKey: true
-    unsigned: false
-    visible: true
-  dl:
-    caseSensitive: false
-    dataType: 12
-    generated: false
-    name: dl
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-indexes:
-  primary:
-    name: PRIMARY
-    unique: false
-name: plugin

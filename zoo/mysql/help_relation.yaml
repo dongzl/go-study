@@ -22,27 +22,3 @@ indexes:
     name: PRIMARY
     unique: false
 name: help_relation
-columns:
-  help_topic_id:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: help_topic_id
-    nullable: false
-    primaryKey: true
-    unsigned: true
-    visible: true
-  help_keyword_id:
-    caseSensitive: false
-    dataType: 4
-    generated: false
-    name: help_keyword_id
-    nullable: false
-    primaryKey: true
-    unsigned: true
-    visible: true
-indexes:
-  primary:
-    name: PRIMARY
-    unique: false
-name: help_relation

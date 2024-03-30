@@ -9,14 +9,3 @@ columns:
     unsigned: false
     visible: true
 name: memory_global_total
-columns:
-  total_allocated:
-    caseSensitive: false
-    dataType: -1
-    generated: false
-    name: total_allocated
-    nullable: false
-    primaryKey: false
-    unsigned: false
-    visible: true
-name: memory_global_total

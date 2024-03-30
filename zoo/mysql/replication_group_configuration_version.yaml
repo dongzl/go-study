@@ -22,27 +22,3 @@ indexes:
     name: PRIMARY
     unique: false
 name: replication_group_configuration_version
-columns:
-  name:
-    caseSensitive: true
-    dataType: 1
-    generated: false
-    name: name
-    nullable: false
-    primaryKey: true
-    unsigned: false
-    visible: true
-  version:
-    caseSensitive: true
-    dataType: 4
-    generated: false
-    name: version
-    nullable: false
-    primaryKey: false
-    unsigned: true
-    visible: true
-indexes:
-  primary:
-    name: PRIMARY
-    unique: false
-name: replication_group_configuration_version
