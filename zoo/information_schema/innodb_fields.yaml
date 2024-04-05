@@ -1,0 +1,30 @@
+columns:
+  index_id:
+    caseSensitive: false
+    dataType: -3
+    generated: false
+    name: INDEX_ID
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  pos:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: POS
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: INNODB_FIELDS
+type: TABLE

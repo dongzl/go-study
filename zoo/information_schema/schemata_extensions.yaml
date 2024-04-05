@@ -1,0 +1,30 @@
+columns:
+  catalog_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: CATALOG_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  schema_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: SCHEMA_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  options:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: OPTIONS
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: SCHEMATA_EXTENSIONS
+type: TABLE

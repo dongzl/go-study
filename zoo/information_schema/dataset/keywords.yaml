@@ -1,0 +1,6 @@
+  <dataset>
+      <metadata>
+          <column name="word"></column>
+          <column name="reserved"></column>
+      </metadata>
+  </dataset>

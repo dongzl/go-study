@@ -18,3 +18,4 @@ columns:
     unsigned: false
     visible: true
 name: COLLATION_CHARACTER_SET_APPLICABILITY
+type: TABLE

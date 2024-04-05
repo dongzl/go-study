@@ -72,3 +72,4 @@ columns:
     unsigned: false
     visible: true
 name: INNODB_CMP_PER_INDEX_RESET
+type: TABLE

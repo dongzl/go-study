@@ -1,0 +1,14 @@
+  <dataset>
+      <metadata>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="view_definition"></column>
+          <column name="check_option"></column>
+          <column name="is_updatable"></column>
+          <column name="definer"></column>
+          <column name="security_type"></column>
+          <column name="character_set_client"></column>
+          <column name="collation_connection"></column>
+      </metadata>
+  </dataset>

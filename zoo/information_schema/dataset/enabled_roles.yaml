@@ -1,0 +1,8 @@
+  <dataset>
+      <metadata>
+          <column name="role_name"></column>
+          <column name="role_host"></column>
+          <column name="is_default"></column>
+          <column name="is_mandatory"></column>
+      </metadata>
+  </dataset>

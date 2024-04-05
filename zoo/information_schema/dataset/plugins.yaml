@@ -1,0 +1,15 @@
+  <dataset>
+      <metadata>
+          <column name="plugin_name"></column>
+          <column name="plugin_version"></column>
+          <column name="plugin_status"></column>
+          <column name="plugin_type"></column>
+          <column name="plugin_type_version"></column>
+          <column name="plugin_library"></column>
+          <column name="plugin_library_version"></column>
+          <column name="plugin_author"></column>
+          <column name="plugin_description"></column>
+          <column name="plugin_license"></column>
+          <column name="load_option"></column>
+      </metadata>
+  </dataset>

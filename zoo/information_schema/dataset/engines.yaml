@@ -1,0 +1,10 @@
+  <dataset>
+      <metadata>
+          <column name="engine"></column>
+          <column name="support"></column>
+          <column name="comment"></column>
+          <column name="transactions"></column>
+          <column name="xa"></column>
+          <column name="savepoints"></column>
+      </metadata>
+  </dataset>

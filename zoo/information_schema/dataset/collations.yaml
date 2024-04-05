@@ -1,0 +1,11 @@
+  <dataset>
+      <metadata>
+          <column name="collation_name"></column>
+          <column name="character_set_name"></column>
+          <column name="id"></column>
+          <column name="is_default"></column>
+          <column name="is_compiled"></column>
+          <column name="sortlen"></column>
+          <column name="pad_attribute"></column>
+      </metadata>
+  </dataset>

@@ -1,0 +1,42 @@
+  <dataset>
+      <metadata>
+          <column name="file_id"></column>
+          <column name="file_name"></column>
+          <column name="file_type"></column>
+          <column name="tablespace_name"></column>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="logfile_group_name"></column>
+          <column name="logfile_group_number"></column>
+          <column name="engine"></column>
+          <column name="fulltext_keys"></column>
+          <column name="deleted_rows"></column>
+          <column name="update_count"></column>
+          <column name="free_extents"></column>
+          <column name="total_extents"></column>
+          <column name="extent_size"></column>
+          <column name="initial_size"></column>
+          <column name="maximum_size"></column>
+          <column name="autoextend_size"></column>
+          <column name="creation_time"></column>
+          <column name="last_update_time"></column>
+          <column name="last_access_time"></column>
+          <column name="recover_time"></column>
+          <column name="transaction_counter"></column>
+          <column name="version"></column>
+          <column name="row_format"></column>
+          <column name="table_rows"></column>
+          <column name="avg_row_length"></column>
+          <column name="data_length"></column>
+          <column name="max_data_length"></column>
+          <column name="index_length"></column>
+          <column name="data_free"></column>
+          <column name="create_time"></column>
+          <column name="update_time"></column>
+          <column name="check_time"></column>
+          <column name="checksum"></column>
+          <column name="status"></column>
+          <column name="extra"></column>
+      </metadata>
+  </dataset>

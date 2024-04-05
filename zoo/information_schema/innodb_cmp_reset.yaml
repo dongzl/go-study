@@ -54,3 +54,4 @@ columns:
     unsigned: false
     visible: true
 name: INNODB_CMP_RESET
+type: TABLE

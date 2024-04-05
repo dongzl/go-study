@@ -1,6 +1,6 @@
 columns:
   constraint_catalog:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: CONSTRAINT_CATALOG
@@ -9,7 +9,7 @@ columns:
     unsigned: false
     visible: true
   constraint_schema:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: CONSTRAINT_SCHEMA
@@ -22,12 +22,12 @@ columns:
     dataType: 12
     generated: false
     name: CONSTRAINT_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   table_schema:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: TABLE_SCHEMA
@@ -36,7 +36,7 @@ columns:
     unsigned: false
     visible: true
   table_name:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: TABLE_NAME
@@ -45,7 +45,7 @@ columns:
     unsigned: false
     visible: true
   constraint_type:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: CONSTRAINT_TYPE
@@ -54,7 +54,7 @@ columns:
     unsigned: false
     visible: true
   enforced:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: ENFORCED
@@ -63,3 +63,4 @@ columns:
     unsigned: false
     visible: true
 name: TABLE_CONSTRAINTS
+type: TABLE

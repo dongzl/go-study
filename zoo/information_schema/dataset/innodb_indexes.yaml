@@ -1,0 +1,12 @@
+  <dataset>
+      <metadata>
+          <column name="index_id"></column>
+          <column name="name"></column>
+          <column name="table_id"></column>
+          <column name="type"></column>
+          <column name="n_fields"></column>
+          <column name="page_no"></column>
+          <column name="space"></column>
+          <column name="merge_threshold"></column>
+      </metadata>
+  </dataset>

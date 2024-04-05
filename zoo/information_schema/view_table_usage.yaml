@@ -1,0 +1,57 @@
+columns:
+  view_catalog:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: VIEW_CATALOG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  view_schema:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: VIEW_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  view_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: VIEW_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_catalog:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: TABLE_CATALOG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_schema:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: TABLE_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: TABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: VIEW_TABLE_USAGE
+type: TABLE

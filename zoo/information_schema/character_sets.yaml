@@ -33,6 +33,7 @@ columns:
     name: MAXLEN
     nullable: false
     primaryKey: false
-    unsigned: false
+    unsigned: true
     visible: true
 name: CHARACTER_SETS
+type: TABLE

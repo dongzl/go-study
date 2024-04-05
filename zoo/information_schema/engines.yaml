@@ -31,7 +31,7 @@ columns:
     dataType: 12
     generated: false
     name: TRANSACTIONS
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -40,7 +40,7 @@ columns:
     dataType: 12
     generated: false
     name: XA
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -49,8 +49,9 @@ columns:
     dataType: 12
     generated: false
     name: SAVEPOINTS
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: ENGINES
+type: TABLE

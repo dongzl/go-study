@@ -1,0 +1,19 @@
+  <dataset>
+      <metadata>
+          <column name="space"></column>
+          <column name="name"></column>
+          <column name="flag"></column>
+          <column name="row_format"></column>
+          <column name="page_size"></column>
+          <column name="zip_page_size"></column>
+          <column name="space_type"></column>
+          <column name="fs_block_size"></column>
+          <column name="file_size"></column>
+          <column name="allocated_size"></column>
+          <column name="autoextend_size"></column>
+          <column name="server_version"></column>
+          <column name="space_version"></column>
+          <column name="encryption"></column>
+          <column name="state"></column>
+      </metadata>
+  </dataset>

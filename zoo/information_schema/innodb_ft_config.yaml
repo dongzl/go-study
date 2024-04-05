@@ -18,3 +18,4 @@ columns:
     unsigned: false
     visible: true
 name: INNODB_FT_CONFIG
+type: TABLE

@@ -1,0 +1,15 @@
+  <dataset>
+      <metadata>
+          <column name="constraint_catalog"></column>
+          <column name="constraint_schema"></column>
+          <column name="constraint_name"></column>
+          <column name="unique_constraint_catalog"></column>
+          <column name="unique_constraint_schema"></column>
+          <column name="unique_constraint_name"></column>
+          <column name="match_option"></column>
+          <column name="update_rule"></column>
+          <column name="delete_rule"></column>
+          <column name="table_name"></column>
+          <column name="referenced_table_name"></column>
+      </metadata>
+  </dataset>

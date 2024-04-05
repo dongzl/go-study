@@ -1,0 +1,75 @@
+columns:
+  index_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: INDEX_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: TABLE_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  type:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  n_fields:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: N_FIELDS
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  page_no:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PAGE_NO
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  space:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: SPACE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  merge_threshold:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: MERGE_THRESHOLD
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: INNODB_INDEXES
+type: TABLE

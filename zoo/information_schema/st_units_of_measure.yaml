@@ -1,0 +1,39 @@
+columns:
+  unit_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: UNIT_NAME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  unit_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: UNIT_TYPE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  conversion_factor:
+    caseSensitive: false
+    dataType: 8
+    generated: false
+    name: CONVERSION_FACTOR
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  description:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: DESCRIPTION
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ST_UNITS_OF_MEASURE
+type: TABLE

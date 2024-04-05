@@ -1,0 +1,10 @@
+  <dataset>
+      <metadata>
+          <column name="srs_name"></column>
+          <column name="srs_id"></column>
+          <column name="organization"></column>
+          <column name="organization_coordsys_id"></column>
+          <column name="definition"></column>
+          <column name="description"></column>
+      </metadata>
+  </dataset>

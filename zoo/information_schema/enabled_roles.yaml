@@ -1,0 +1,39 @@
+columns:
+  role_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROLE_NAME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  role_host:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROLE_HOST
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_default:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_DEFAULT
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_mandatory:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_MANDATORY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ENABLED_ROLES
+type: TABLE

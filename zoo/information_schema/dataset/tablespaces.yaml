@@ -1,0 +1,13 @@
+  <dataset>
+      <metadata>
+          <column name="tablespace_name"></column>
+          <column name="engine"></column>
+          <column name="tablespace_type"></column>
+          <column name="logfile_group_name"></column>
+          <column name="extent_size"></column>
+          <column name="autoextend_size"></column>
+          <column name="maximum_size"></column>
+          <column name="nodegroup_id"></column>
+          <column name="tablespace_comment"></column>
+      </metadata>
+  </dataset>

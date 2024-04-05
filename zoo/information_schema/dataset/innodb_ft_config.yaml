@@ -1,0 +1,6 @@
+  <dataset>
+      <metadata>
+          <column name="key"></column>
+          <column name="value"></column>
+      </metadata>
+  </dataset>

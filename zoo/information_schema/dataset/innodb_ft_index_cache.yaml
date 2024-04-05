@@ -1,0 +1,10 @@
+  <dataset>
+      <metadata>
+          <column name="word"></column>
+          <column name="first_doc_id"></column>
+          <column name="last_doc_id"></column>
+          <column name="doc_count"></column>
+          <column name="doc_id"></column>
+          <column name="position"></column>
+      </metadata>
+  </dataset>

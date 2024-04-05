@@ -1,0 +1,29 @@
+  <dataset>
+      <metadata>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="partition_name"></column>
+          <column name="subpartition_name"></column>
+          <column name="partition_ordinal_position"></column>
+          <column name="subpartition_ordinal_position"></column>
+          <column name="partition_method"></column>
+          <column name="subpartition_method"></column>
+          <column name="partition_expression"></column>
+          <column name="subpartition_expression"></column>
+          <column name="partition_description"></column>
+          <column name="table_rows"></column>
+          <column name="avg_row_length"></column>
+          <column name="data_length"></column>
+          <column name="max_data_length"></column>
+          <column name="index_length"></column>
+          <column name="data_free"></column>
+          <column name="create_time"></column>
+          <column name="update_time"></column>
+          <column name="check_time"></column>
+          <column name="checksum"></column>
+          <column name="partition_comment"></column>
+          <column name="nodegroup"></column>
+          <column name="tablespace_name"></column>
+      </metadata>
+  </dataset>

@@ -1,0 +1,21 @@
+  <dataset>
+      <metadata>
+          <column name="name"></column>
+          <column name="subsystem"></column>
+          <column name="count"></column>
+          <column name="max_count"></column>
+          <column name="min_count"></column>
+          <column name="avg_count"></column>
+          <column name="count_reset"></column>
+          <column name="max_count_reset"></column>
+          <column name="min_count_reset"></column>
+          <column name="avg_count_reset"></column>
+          <column name="time_enabled"></column>
+          <column name="time_disabled"></column>
+          <column name="time_elapsed"></column>
+          <column name="time_reset"></column>
+          <column name="status"></column>
+          <column name="type"></column>
+          <column name="comment"></column>
+      </metadata>
+  </dataset>

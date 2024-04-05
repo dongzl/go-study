@@ -1,0 +1,22 @@
+  <dataset>
+      <metadata>
+          <column name="query_id"></column>
+          <column name="seq"></column>
+          <column name="state"></column>
+          <column name="duration"></column>
+          <column name="cpu_user"></column>
+          <column name="cpu_system"></column>
+          <column name="context_voluntary"></column>
+          <column name="context_involuntary"></column>
+          <column name="block_ops_in"></column>
+          <column name="block_ops_out"></column>
+          <column name="messages_sent"></column>
+          <column name="messages_received"></column>
+          <column name="page_faults_major"></column>
+          <column name="page_faults_minor"></column>
+          <column name="swaps"></column>
+          <column name="source_function"></column>
+          <column name="source_file"></column>
+          <column name="source_line"></column>
+      </metadata>
+  </dataset>

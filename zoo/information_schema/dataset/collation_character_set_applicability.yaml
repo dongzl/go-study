@@ -1,0 +1,6 @@
+  <dataset>
+      <metadata>
+          <column name="collation_name"></column>
+          <column name="character_set_name"></column>
+      </metadata>
+  </dataset>

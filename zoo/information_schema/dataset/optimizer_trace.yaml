@@ -1,0 +1,8 @@
+  <dataset>
+      <metadata>
+          <column name="query"></column>
+          <column name="trace"></column>
+          <column name="missing_bytes_beyond_max_mem_size"></column>
+          <column name="insufficient_privileges"></column>
+      </metadata>
+  </dataset>

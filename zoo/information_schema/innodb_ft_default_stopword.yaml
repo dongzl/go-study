@@ -9,3 +9,4 @@ columns:
     unsigned: false
     visible: true
 name: INNODB_FT_DEFAULT_STOPWORD
+type: TABLE

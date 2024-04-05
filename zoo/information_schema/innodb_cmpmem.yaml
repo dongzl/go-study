@@ -37,7 +37,7 @@ columns:
     visible: true
   relocation_ops:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: relocation_ops
     nullable: false
@@ -54,3 +54,4 @@ columns:
     unsigned: false
     visible: true
 name: INNODB_CMPMEM
+type: TABLE

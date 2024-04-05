@@ -1,0 +1,48 @@
+columns:
+  resource_group_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: RESOURCE_GROUP_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  resource_group_type:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: RESOURCE_GROUP_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  resource_group_enabled:
+    caseSensitive: false
+    dataType: -6
+    generated: false
+    name: RESOURCE_GROUP_ENABLED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  vcpu_ids:
+    caseSensitive: false
+    dataType: -4
+    generated: false
+    name: VCPU_IDS
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  thread_priority:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: THREAD_PRIORITY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: RESOURCE_GROUPS
+type: TABLE

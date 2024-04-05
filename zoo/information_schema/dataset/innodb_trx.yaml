@@ -1,0 +1,29 @@
+  <dataset>
+      <metadata>
+          <column name="trx_id"></column>
+          <column name="trx_state"></column>
+          <column name="trx_started"></column>
+          <column name="trx_requested_lock_id"></column>
+          <column name="trx_wait_started"></column>
+          <column name="trx_weight"></column>
+          <column name="trx_mysql_thread_id"></column>
+          <column name="trx_query"></column>
+          <column name="trx_operation_state"></column>
+          <column name="trx_tables_in_use"></column>
+          <column name="trx_tables_locked"></column>
+          <column name="trx_lock_structs"></column>
+          <column name="trx_lock_memory_bytes"></column>
+          <column name="trx_rows_locked"></column>
+          <column name="trx_rows_modified"></column>
+          <column name="trx_concurrency_tickets"></column>
+          <column name="trx_isolation_level"></column>
+          <column name="trx_unique_checks"></column>
+          <column name="trx_foreign_key_checks"></column>
+          <column name="trx_last_foreign_key_error"></column>
+          <column name="trx_adaptive_hash_latched"></column>
+          <column name="trx_adaptive_hash_timeout"></column>
+          <column name="trx_is_read_only"></column>
+          <column name="trx_autocommit_non_locking"></column>
+          <column name="trx_schedule_weight"></column>
+      </metadata>
+  </dataset>

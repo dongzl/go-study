@@ -1,0 +1,30 @@
+columns:
+  space_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: SPACE_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  index_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: INDEX_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  n_cached_pages:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: N_CACHED_PAGES
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: INNODB_CACHED_INDEXES
+type: TABLE

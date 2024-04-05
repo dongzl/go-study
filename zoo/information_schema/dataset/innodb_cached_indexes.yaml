@@ -1,0 +1,7 @@
+  <dataset>
+      <metadata>
+          <column name="space_id"></column>
+          <column name="index_id"></column>
+          <column name="n_cached_pages"></column>
+      </metadata>
+  </dataset>

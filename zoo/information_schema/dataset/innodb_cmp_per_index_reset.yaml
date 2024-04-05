@@ -1,0 +1,12 @@
+  <dataset>
+      <metadata>
+          <column name="database_name"></column>
+          <column name="table_name"></column>
+          <column name="index_name"></column>
+          <column name="compress_ops"></column>
+          <column name="compress_ops_ok"></column>
+          <column name="compress_time"></column>
+          <column name="uncompress_ops"></column>
+          <column name="uncompress_time"></column>
+      </metadata>
+  </dataset>

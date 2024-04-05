@@ -40,7 +40,7 @@ columns:
     dataType: 3
     generated: false
     name: CPU_USER
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -49,7 +49,7 @@ columns:
     dataType: 3
     generated: false
     name: CPU_SYSTEM
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -58,7 +58,7 @@ columns:
     dataType: 4
     generated: false
     name: CONTEXT_VOLUNTARY
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -67,7 +67,7 @@ columns:
     dataType: 4
     generated: false
     name: CONTEXT_INVOLUNTARY
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -76,7 +76,7 @@ columns:
     dataType: 4
     generated: false
     name: BLOCK_OPS_IN
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -85,7 +85,7 @@ columns:
     dataType: 4
     generated: false
     name: BLOCK_OPS_OUT
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -94,7 +94,7 @@ columns:
     dataType: 4
     generated: false
     name: MESSAGES_SENT
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -103,7 +103,7 @@ columns:
     dataType: 4
     generated: false
     name: MESSAGES_RECEIVED
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -112,7 +112,7 @@ columns:
     dataType: 4
     generated: false
     name: PAGE_FAULTS_MAJOR
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -121,7 +121,7 @@ columns:
     dataType: 4
     generated: false
     name: PAGE_FAULTS_MINOR
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -130,7 +130,7 @@ columns:
     dataType: 4
     generated: false
     name: SWAPS
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -139,7 +139,7 @@ columns:
     dataType: 12
     generated: false
     name: SOURCE_FUNCTION
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -148,7 +148,7 @@ columns:
     dataType: 12
     generated: false
     name: SOURCE_FILE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -157,8 +157,9 @@ columns:
     dataType: 4
     generated: false
     name: SOURCE_LINE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: PROFILING
+type: TABLE

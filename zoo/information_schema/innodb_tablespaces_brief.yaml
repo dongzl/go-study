@@ -1,0 +1,48 @@
+columns:
+  space:
+    caseSensitive: false
+    dataType: -3
+    generated: false
+    name: SPACE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  path:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: PATH
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  flag:
+    caseSensitive: false
+    dataType: -3
+    generated: false
+    name: FLAG
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  space_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SPACE_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: INNODB_TABLESPACES_BRIEF
+type: TABLE

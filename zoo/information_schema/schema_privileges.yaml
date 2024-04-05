@@ -45,3 +45,4 @@ columns:
     unsigned: false
     visible: true
 name: SCHEMA_PRIVILEGES
+type: TABLE

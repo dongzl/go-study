@@ -1,0 +1,10 @@
+  <dataset>
+      <metadata>
+          <column name="page_size"></column>
+          <column name="buffer_pool_instance"></column>
+          <column name="pages_used"></column>
+          <column name="pages_free"></column>
+          <column name="relocation_ops"></column>
+          <column name="relocation_time"></column>
+      </metadata>
+  </dataset>

@@ -1,0 +1,6 @@
+  <dataset>
+      <metadata>
+          <column name="variable_name"></column>
+          <column name="variable_value"></column>
+      </metadata>
+  </dataset>

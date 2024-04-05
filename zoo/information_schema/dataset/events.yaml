@@ -1,0 +1,28 @@
+  <dataset>
+      <metadata>
+          <column name="event_catalog"></column>
+          <column name="event_schema"></column>
+          <column name="event_name"></column>
+          <column name="definer"></column>
+          <column name="time_zone"></column>
+          <column name="event_body"></column>
+          <column name="event_definition"></column>
+          <column name="event_type"></column>
+          <column name="execute_at"></column>
+          <column name="interval_value"></column>
+          <column name="interval_field"></column>
+          <column name="sql_mode"></column>
+          <column name="starts"></column>
+          <column name="ends"></column>
+          <column name="status"></column>
+          <column name="on_completion"></column>
+          <column name="created"></column>
+          <column name="last_altered"></column>
+          <column name="last_executed"></column>
+          <column name="event_comment"></column>
+          <column name="originator"></column>
+          <column name="character_set_client"></column>
+          <column name="collation_connection"></column>
+          <column name="database_collation"></column>
+      </metadata>
+  </dataset>

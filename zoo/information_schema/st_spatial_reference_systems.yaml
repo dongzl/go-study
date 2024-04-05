@@ -1,0 +1,57 @@
+columns:
+  srs_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SRS_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  srs_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: SRS_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  organization:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ORGANIZATION
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  organization_coordsys_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ORGANIZATION_COORDSYS_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  definition:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: DEFINITION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  description:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: DESCRIPTION
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ST_SPATIAL_REFERENCE_SYSTEMS
+type: TABLE

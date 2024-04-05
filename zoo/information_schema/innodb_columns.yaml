@@ -1,0 +1,75 @@
+columns:
+  table_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: TABLE_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  pos:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: POS
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  mtype:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: MTYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  prtype:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PRTYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  len:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: LEN
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  has_default:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: HAS_DEFAULT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  default_value:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: DEFAULT_VALUE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: INNODB_COLUMNS
+type: TABLE

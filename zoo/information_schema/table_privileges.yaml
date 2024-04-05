@@ -54,3 +54,4 @@ columns:
     unsigned: false
     visible: true
 name: TABLE_PRIVILEGES
+type: TABLE

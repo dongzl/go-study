@@ -1,6 +1,6 @@
 columns:
   constraint_catalog:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: CONSTRAINT_CATALOG
@@ -9,7 +9,7 @@ columns:
     unsigned: false
     visible: true
   constraint_schema:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: CONSTRAINT_SCHEMA
@@ -22,12 +22,12 @@ columns:
     dataType: 12
     generated: false
     name: CONSTRAINT_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   unique_constraint_catalog:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: UNIQUE_CONSTRAINT_CATALOG
@@ -36,7 +36,7 @@ columns:
     unsigned: false
     visible: true
   unique_constraint_schema:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: UNIQUE_CONSTRAINT_SCHEMA
@@ -49,13 +49,13 @@ columns:
     dataType: 12
     generated: false
     name: UNIQUE_CONSTRAINT_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   match_option:
-    caseSensitive: false
-    dataType: 12
+    caseSensitive: true
+    dataType: 1
     generated: false
     name: MATCH_OPTION
     nullable: false
@@ -63,8 +63,8 @@ columns:
     unsigned: false
     visible: true
   update_rule:
-    caseSensitive: false
-    dataType: 12
+    caseSensitive: true
+    dataType: 1
     generated: false
     name: UPDATE_RULE
     nullable: false
@@ -72,8 +72,8 @@ columns:
     unsigned: false
     visible: true
   delete_rule:
-    caseSensitive: false
-    dataType: 12
+    caseSensitive: true
+    dataType: 1
     generated: false
     name: DELETE_RULE
     nullable: false
@@ -81,7 +81,7 @@ columns:
     unsigned: false
     visible: true
   table_name:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: TABLE_NAME
@@ -90,7 +90,7 @@ columns:
     unsigned: false
     visible: true
   referenced_table_name:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: REFERENCED_TABLE_NAME
@@ -99,3 +99,4 @@ columns:
     unsigned: false
     visible: true
 name: REFERENTIAL_CONSTRAINTS
+type: TABLE

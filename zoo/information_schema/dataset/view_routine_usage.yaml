@@ -1,0 +1,10 @@
+  <dataset>
+      <metadata>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="specific_catalog"></column>
+          <column name="specific_schema"></column>
+          <column name="specific_name"></column>
+      </metadata>
+  </dataset>

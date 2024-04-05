@@ -1,0 +1,26 @@
+  <dataset>
+      <metadata>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="column_name"></column>
+          <column name="ordinal_position"></column>
+          <column name="column_default"></column>
+          <column name="is_nullable"></column>
+          <column name="data_type"></column>
+          <column name="character_maximum_length"></column>
+          <column name="character_octet_length"></column>
+          <column name="numeric_precision"></column>
+          <column name="numeric_scale"></column>
+          <column name="datetime_precision"></column>
+          <column name="character_set_name"></column>
+          <column name="collation_name"></column>
+          <column name="column_type"></column>
+          <column name="column_key"></column>
+          <column name="extra"></column>
+          <column name="privileges"></column>
+          <column name="column_comment"></column>
+          <column name="generation_expression"></column>
+          <column name="srs_id"></column>
+      </metadata>
+  </dataset>

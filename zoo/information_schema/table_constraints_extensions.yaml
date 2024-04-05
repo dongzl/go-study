@@ -1,0 +1,57 @@
+columns:
+  constraint_catalog:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_CATALOG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_schema:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: TABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  engine_attribute:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: ENGINE_ATTRIBUTE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  secondary_engine_attribute:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: SECONDARY_ENGINE_ATTRIBUTE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: TABLE_CONSTRAINTS_EXTENSIONS
+type: TABLE

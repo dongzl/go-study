@@ -63,3 +63,4 @@ columns:
     unsigned: false
     visible: true
 name: COLUMN_PRIVILEGES
+type: TABLE

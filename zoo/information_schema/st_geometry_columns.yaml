@@ -1,0 +1,66 @@
+columns:
+  table_catalog:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: TABLE_CATALOG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_schema:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: TABLE_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: TABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  column_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: COLUMN_NAME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  srs_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SRS_NAME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  srs_id:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: SRS_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  geometry_type_name:
+    caseSensitive: true
+    dataType: -1
+    generated: false
+    name: GEOMETRY_TYPE_NAME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ST_GEOMETRY_COLUMNS
+type: TABLE

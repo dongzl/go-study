@@ -1,0 +1,9 @@
+  <dataset>
+      <metadata>
+          <column name="space"></column>
+          <column name="name"></column>
+          <column name="path"></column>
+          <column name="flag"></column>
+          <column name="space_type"></column>
+      </metadata>
+  </dataset>

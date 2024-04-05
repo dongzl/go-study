@@ -1,0 +1,8 @@
+  <dataset>
+      <metadata>
+          <column name="constraint_catalog"></column>
+          <column name="constraint_schema"></column>
+          <column name="constraint_name"></column>
+          <column name="check_clause"></column>
+      </metadata>
+  </dataset>

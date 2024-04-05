@@ -1,0 +1,93 @@
+columns:
+  table_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: TABLE_ID
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  flag:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: FLAG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  n_cols:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: N_COLS
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  space:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: SPACE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  row_format:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROW_FORMAT
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  zip_page_size:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ZIP_PAGE_SIZE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  space_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SPACE_TYPE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  instant_cols:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: INSTANT_COLS
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total_row_versions:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: TOTAL_ROW_VERSIONS
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: INNODB_TABLES
+type: TABLE

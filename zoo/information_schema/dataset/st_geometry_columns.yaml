@@ -1,0 +1,11 @@
+  <dataset>
+      <metadata>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="column_name"></column>
+          <column name="srs_name"></column>
+          <column name="srs_id"></column>
+          <column name="geometry_type_name"></column>
+      </metadata>
+  </dataset>

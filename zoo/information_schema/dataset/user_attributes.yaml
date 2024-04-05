@@ -1,0 +1,7 @@
+  <dataset>
+      <metadata>
+          <column name="user"></column>
+          <column name="host"></column>
+          <column name="attribute"></column>
+      </metadata>
+  </dataset>

@@ -1,0 +1,13 @@
+  <dataset>
+      <metadata>
+          <column name="table_id"></column>
+          <column name="name"></column>
+          <column name="stats_initialized"></column>
+          <column name="num_rows"></column>
+          <column name="clust_index_size"></column>
+          <column name="other_index_size"></column>
+          <column name="modified_counter"></column>
+          <column name="autoinc"></column>
+          <column name="ref_count"></column>
+      </metadata>
+  </dataset>

@@ -1,0 +1,25 @@
+  <dataset>
+      <metadata>
+          <column name="pool_id"></column>
+          <column name="block_id"></column>
+          <column name="space"></column>
+          <column name="page_number"></column>
+          <column name="page_type"></column>
+          <column name="flush_type"></column>
+          <column name="fix_count"></column>
+          <column name="is_hashed"></column>
+          <column name="newest_modification"></column>
+          <column name="oldest_modification"></column>
+          <column name="access_time"></column>
+          <column name="table_name"></column>
+          <column name="index_name"></column>
+          <column name="number_records"></column>
+          <column name="data_size"></column>
+          <column name="compressed_size"></column>
+          <column name="page_state"></column>
+          <column name="io_fix"></column>
+          <column name="is_old"></column>
+          <column name="free_page_clock"></column>
+          <column name="is_stale"></column>
+      </metadata>
+  </dataset>

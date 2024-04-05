@@ -1,0 +1,25 @@
+  <dataset>
+      <metadata>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="table_type"></column>
+          <column name="engine"></column>
+          <column name="version"></column>
+          <column name="row_format"></column>
+          <column name="table_rows"></column>
+          <column name="avg_row_length"></column>
+          <column name="data_length"></column>
+          <column name="max_data_length"></column>
+          <column name="index_length"></column>
+          <column name="data_free"></column>
+          <column name="auto_increment"></column>
+          <column name="create_time"></column>
+          <column name="update_time"></column>
+          <column name="check_time"></column>
+          <column name="table_collation"></column>
+          <column name="checksum"></column>
+          <column name="create_options"></column>
+          <column name="table_comment"></column>
+      </metadata>
+  </dataset>

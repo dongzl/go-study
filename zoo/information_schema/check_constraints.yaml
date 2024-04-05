@@ -1,0 +1,39 @@
+columns:
+  constraint_catalog:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_CATALOG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_schema:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  constraint_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: CONSTRAINT_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  check_clause:
+    caseSensitive: true
+    dataType: -1
+    generated: false
+    name: CHECK_CLAUSE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: CHECK_CONSTRAINTS
+type: TABLE

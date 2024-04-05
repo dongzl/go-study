@@ -1,0 +1,8 @@
+  <dataset>
+      <metadata>
+          <column name="id"></column>
+          <column name="for_col_name"></column>
+          <column name="ref_col_name"></column>
+          <column name="pos"></column>
+      </metadata>
+  </dataset>

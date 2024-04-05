@@ -36,3 +36,4 @@ columns:
     unsigned: false
     visible: true
 name: USER_PRIVILEGES
+type: TABLE

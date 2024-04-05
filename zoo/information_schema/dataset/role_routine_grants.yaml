@@ -1,0 +1,16 @@
+  <dataset>
+      <metadata>
+          <column name="grantor"></column>
+          <column name="grantor_host"></column>
+          <column name="grantee"></column>
+          <column name="grantee_host"></column>
+          <column name="specific_catalog"></column>
+          <column name="specific_schema"></column>
+          <column name="specific_name"></column>
+          <column name="routine_catalog"></column>
+          <column name="routine_schema"></column>
+          <column name="routine_name"></column>
+          <column name="privilege_type"></column>
+          <column name="is_grantable"></column>
+      </metadata>
+  </dataset>

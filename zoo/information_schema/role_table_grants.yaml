@@ -1,0 +1,84 @@
+columns:
+  grantor:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: GRANTOR
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  grantor_host:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: GRANTOR_HOST
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  grantee:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: GRANTEE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  grantee_host:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: GRANTEE_HOST
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_catalog:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: TABLE_CATALOG
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_schema:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: TABLE_SCHEMA
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: TABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  privilege_type:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: PRIVILEGE_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_grantable:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_GRANTABLE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ROLE_TABLE_GRANTS
+type: TABLE

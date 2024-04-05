@@ -1,0 +1,21 @@
+columns:
+  space:
+    caseSensitive: false
+    dataType: -3
+    generated: false
+    name: SPACE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  path:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: PATH
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: INNODB_DATAFILES
+type: TABLE

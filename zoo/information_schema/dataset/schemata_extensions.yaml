@@ -1,0 +1,7 @@
+  <dataset>
+      <metadata>
+          <column name="catalog_name"></column>
+          <column name="schema_name"></column>
+          <column name="options"></column>
+      </metadata>
+  </dataset>

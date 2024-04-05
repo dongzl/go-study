@@ -1,0 +1,9 @@
+  <dataset>
+      <metadata>
+          <column name="resource_group_name"></column>
+          <column name="resource_group_type"></column>
+          <column name="resource_group_enabled"></column>
+          <column name="vcpu_ids"></column>
+          <column name="thread_priority"></column>
+      </metadata>
+  </dataset>

@@ -1,0 +1,26 @@
+  <dataset>
+      <metadata>
+          <column name="trigger_catalog"></column>
+          <column name="trigger_schema"></column>
+          <column name="trigger_name"></column>
+          <column name="event_manipulation"></column>
+          <column name="event_object_catalog"></column>
+          <column name="event_object_schema"></column>
+          <column name="event_object_table"></column>
+          <column name="action_order"></column>
+          <column name="action_condition"></column>
+          <column name="action_statement"></column>
+          <column name="action_orientation"></column>
+          <column name="action_timing"></column>
+          <column name="action_reference_old_table"></column>
+          <column name="action_reference_new_table"></column>
+          <column name="action_reference_old_row"></column>
+          <column name="action_reference_new_row"></column>
+          <column name="created"></column>
+          <column name="sql_mode"></column>
+          <column name="definer"></column>
+          <column name="character_set_client"></column>
+          <column name="collation_connection"></column>
+          <column name="database_collation"></column>
+      </metadata>
+  </dataset>

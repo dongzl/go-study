@@ -1,0 +1,7 @@
+  <dataset>
+      <metadata>
+          <column name="table_id"></column>
+          <column name="pos"></column>
+          <column name="base_pos"></column>
+      </metadata>
+  </dataset>

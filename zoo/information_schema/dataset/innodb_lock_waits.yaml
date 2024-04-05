@@ -1,0 +1,34 @@
+  <dataset>
+      <metadata>
+          <column name="wait_started"></column>
+          <column name="wait_age"></column>
+          <column name="wait_age_secs"></column>
+          <column name="locked_table"></column>
+          <column name="locked_table_schema"></column>
+          <column name="locked_table_name"></column>
+          <column name="locked_table_partition"></column>
+          <column name="locked_table_subpartition"></column>
+          <column name="locked_index"></column>
+          <column name="locked_type"></column>
+          <column name="waiting_trx_id"></column>
+          <column name="waiting_trx_started"></column>
+          <column name="waiting_trx_age"></column>
+          <column name="waiting_trx_rows_locked"></column>
+          <column name="waiting_trx_rows_modified"></column>
+          <column name="waiting_pid"></column>
+          <column name="waiting_query"></column>
+          <column name="waiting_lock_id"></column>
+          <column name="waiting_lock_mode"></column>
+          <column name="blocking_trx_id"></column>
+          <column name="blocking_pid"></column>
+          <column name="blocking_query"></column>
+          <column name="blocking_lock_id"></column>
+          <column name="blocking_lock_mode"></column>
+          <column name="blocking_trx_started"></column>
+          <column name="blocking_trx_age"></column>
+          <column name="blocking_trx_rows_locked"></column>
+          <column name="blocking_trx_rows_modified"></column>
+          <column name="sql_kill_blocking_query"></column>
+          <column name="sql_kill_blocking_connection"></column>
+      </metadata>
+  </dataset>

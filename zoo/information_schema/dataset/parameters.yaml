@@ -1,0 +1,20 @@
+  <dataset>
+      <metadata>
+          <column name="specific_catalog"></column>
+          <column name="specific_schema"></column>
+          <column name="specific_name"></column>
+          <column name="ordinal_position"></column>
+          <column name="parameter_mode"></column>
+          <column name="parameter_name"></column>
+          <column name="data_type"></column>
+          <column name="character_maximum_length"></column>
+          <column name="character_octet_length"></column>
+          <column name="numeric_precision"></column>
+          <column name="numeric_scale"></column>
+          <column name="datetime_precision"></column>
+          <column name="character_set_name"></column>
+          <column name="collation_name"></column>
+          <column name="dtd_identifier"></column>
+          <column name="routine_type"></column>
+      </metadata>
+  </dataset>

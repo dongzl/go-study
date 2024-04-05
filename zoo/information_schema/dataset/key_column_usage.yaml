@@ -1,0 +1,16 @@
+  <dataset>
+      <metadata>
+          <column name="constraint_catalog"></column>
+          <column name="constraint_schema"></column>
+          <column name="constraint_name"></column>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="column_name"></column>
+          <column name="ordinal_position"></column>
+          <column name="position_in_unique_constraint"></column>
+          <column name="referenced_table_schema"></column>
+          <column name="referenced_table_name"></column>
+          <column name="referenced_column_name"></column>
+      </metadata>
+  </dataset>

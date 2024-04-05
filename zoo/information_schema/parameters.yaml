@@ -1,6 +1,6 @@
 columns:
   specific_catalog:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: SPECIFIC_CATALOG
@@ -9,7 +9,7 @@ columns:
     unsigned: false
     visible: true
   specific_schema:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: SPECIFIC_SCHEMA
@@ -28,19 +28,19 @@ columns:
     visible: true
   ordinal_position:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: ORDINAL_POSITION
     nullable: false
     primaryKey: false
-    unsigned: false
+    unsigned: true
     visible: true
   parameter_mode:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: PARAMETER_MODE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -49,34 +49,34 @@ columns:
     dataType: 12
     generated: false
     name: PARAMETER_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   data_type:
-    caseSensitive: false
-    dataType: 12
+    caseSensitive: true
+    dataType: -1
     generated: false
     name: DATA_TYPE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   character_maximum_length:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: CHARACTER_MAXIMUM_LENGTH
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   character_octet_length:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: CHARACTER_OCTET_LENGTH
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -85,16 +85,16 @@ columns:
     dataType: 4
     generated: false
     name: NUMERIC_PRECISION
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   numeric_scale:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: NUMERIC_SCALE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -103,7 +103,7 @@ columns:
     dataType: 4
     generated: false
     name: DATETIME_PRECISION
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -112,7 +112,7 @@ columns:
     dataType: 12
     generated: false
     name: CHARACTER_SET_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -121,12 +121,12 @@ columns:
     dataType: 12
     generated: false
     name: COLLATION_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   dtd_identifier:
-    caseSensitive: false
+    caseSensitive: true
     dataType: -1
     generated: false
     name: DTD_IDENTIFIER
@@ -135,8 +135,8 @@ columns:
     unsigned: false
     visible: true
   routine_type:
-    caseSensitive: false
-    dataType: 12
+    caseSensitive: true
+    dataType: 1
     generated: false
     name: ROUTINE_TYPE
     nullable: false
@@ -144,3 +144,4 @@ columns:
     unsigned: false
     visible: true
 name: PARAMETERS
+type: TABLE

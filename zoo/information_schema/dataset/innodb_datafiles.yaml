@@ -1,0 +1,6 @@
+  <dataset>
+      <metadata>
+          <column name="space"></column>
+          <column name="path"></column>
+      </metadata>
+  </dataset>

@@ -1,0 +1,51 @@
+  <dataset>
+      <metadata>
+          <column name="id"></column>
+          <column name="user"></column>
+          <column name="host"></column>
+          <column name="db"></column>
+          <column name="command"></column>
+          <column name="time"></column>
+          <column name="state"></column>
+          <column name="info"></column>
+          <column name="id"></column>
+          <column name="user"></column>
+          <column name="host"></column>
+          <column name="db"></column>
+          <column name="command"></column>
+          <column name="time"></column>
+          <column name="state"></column>
+          <column name="info"></column>
+          <column name="execution_engine"></column>
+          <column name="thd_id"></column>
+          <column name="conn_id"></column>
+          <column name="user"></column>
+          <column name="db"></column>
+          <column name="command"></column>
+          <column name="state"></column>
+          <column name="time"></column>
+          <column name="current_statement"></column>
+          <column name="execution_engine"></column>
+          <column name="statement_latency"></column>
+          <column name="progress"></column>
+          <column name="lock_latency"></column>
+          <column name="cpu_latency"></column>
+          <column name="rows_examined"></column>
+          <column name="rows_sent"></column>
+          <column name="rows_affected"></column>
+          <column name="tmp_tables"></column>
+          <column name="tmp_disk_tables"></column>
+          <column name="full_scan"></column>
+          <column name="last_statement"></column>
+          <column name="last_statement_latency"></column>
+          <column name="current_memory"></column>
+          <column name="last_wait"></column>
+          <column name="last_wait_latency"></column>
+          <column name="source"></column>
+          <column name="trx_latency"></column>
+          <column name="trx_state"></column>
+          <column name="trx_autocommit"></column>
+          <column name="pid"></column>
+          <column name="program_name"></column>
+      </metadata>
+  </dataset>

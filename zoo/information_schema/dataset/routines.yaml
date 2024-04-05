@@ -1,0 +1,35 @@
+  <dataset>
+      <metadata>
+          <column name="specific_name"></column>
+          <column name="routine_catalog"></column>
+          <column name="routine_schema"></column>
+          <column name="routine_name"></column>
+          <column name="routine_type"></column>
+          <column name="data_type"></column>
+          <column name="character_maximum_length"></column>
+          <column name="character_octet_length"></column>
+          <column name="numeric_precision"></column>
+          <column name="numeric_scale"></column>
+          <column name="datetime_precision"></column>
+          <column name="character_set_name"></column>
+          <column name="collation_name"></column>
+          <column name="dtd_identifier"></column>
+          <column name="routine_body"></column>
+          <column name="routine_definition"></column>
+          <column name="external_name"></column>
+          <column name="external_language"></column>
+          <column name="parameter_style"></column>
+          <column name="is_deterministic"></column>
+          <column name="sql_data_access"></column>
+          <column name="sql_path"></column>
+          <column name="security_type"></column>
+          <column name="created"></column>
+          <column name="last_altered"></column>
+          <column name="sql_mode"></column>
+          <column name="routine_comment"></column>
+          <column name="definer"></column>
+          <column name="character_set_client"></column>
+          <column name="collation_connection"></column>
+          <column name="database_collation"></column>
+      </metadata>
+  </dataset>

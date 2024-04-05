@@ -1,0 +1,22 @@
+  <dataset>
+      <metadata>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="table_name"></column>
+          <column name="non_unique"></column>
+          <column name="index_schema"></column>
+          <column name="index_name"></column>
+          <column name="seq_in_index"></column>
+          <column name="column_name"></column>
+          <column name="collation"></column>
+          <column name="cardinality"></column>
+          <column name="sub_part"></column>
+          <column name="packed"></column>
+          <column name="nullable"></column>
+          <column name="index_type"></column>
+          <column name="comment"></column>
+          <column name="index_comment"></column>
+          <column name="is_visible"></column>
+          <column name="expression"></column>
+      </metadata>
+  </dataset>

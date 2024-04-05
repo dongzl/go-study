@@ -1,0 +1,30 @@
+columns:
+  user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: USER
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  host:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: HOST
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  attribute:
+    caseSensitive: true
+    dataType: -1
+    generated: false
+    name: ATTRIBUTE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: USER_ATTRIBUTES
+type: TABLE

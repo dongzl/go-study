@@ -1,0 +1,10 @@
+  <dataset>
+      <metadata>
+          <column name="catalog_name"></column>
+          <column name="schema_name"></column>
+          <column name="default_character_set_name"></column>
+          <column name="default_collation_name"></column>
+          <column name="sql_path"></column>
+          <column name="default_encryption"></column>
+      </metadata>
+  </dataset>

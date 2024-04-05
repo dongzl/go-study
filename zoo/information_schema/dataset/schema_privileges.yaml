@@ -1,0 +1,9 @@
+  <dataset>
+      <metadata>
+          <column name="grantee"></column>
+          <column name="table_catalog"></column>
+          <column name="table_schema"></column>
+          <column name="privilege_type"></column>
+          <column name="is_grantable"></column>
+      </metadata>
+  </dataset>

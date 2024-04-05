@@ -1,0 +1,8 @@
+  <dataset>
+      <metadata>
+          <column name="schema_name"></column>
+          <column name="table_name"></column>
+          <column name="column_name"></column>
+          <column name="histogram"></column>
+      </metadata>
+  </dataset>

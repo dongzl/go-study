@@ -1,0 +1,14 @@
+  <dataset>
+      <metadata>
+          <column name="table_id"></column>
+          <column name="name"></column>
+          <column name="flag"></column>
+          <column name="n_cols"></column>
+          <column name="space"></column>
+          <column name="row_format"></column>
+          <column name="zip_page_size"></column>
+          <column name="space_type"></column>
+          <column name="instant_cols"></column>
+          <column name="total_row_versions"></column>
+      </metadata>
+  </dataset>

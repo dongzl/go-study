@@ -1,0 +1,8 @@
+  <dataset>
+      <metadata>
+          <column name="table_id"></column>
+          <column name="name"></column>
+          <column name="n_cols"></column>
+          <column name="space"></column>
+      </metadata>
+  </dataset>

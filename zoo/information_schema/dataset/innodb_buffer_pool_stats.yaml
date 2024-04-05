@@ -1,0 +1,36 @@
+  <dataset>
+      <metadata>
+          <column name="pool_id"></column>
+          <column name="pool_size"></column>
+          <column name="free_buffers"></column>
+          <column name="database_pages"></column>
+          <column name="old_database_pages"></column>
+          <column name="modified_database_pages"></column>
+          <column name="pending_decompress"></column>
+          <column name="pending_reads"></column>
+          <column name="pending_flush_lru"></column>
+          <column name="pending_flush_list"></column>
+          <column name="pages_made_young"></column>
+          <column name="pages_not_made_young"></column>
+          <column name="pages_made_young_rate"></column>
+          <column name="pages_made_not_young_rate"></column>
+          <column name="number_pages_read"></column>
+          <column name="number_pages_created"></column>
+          <column name="number_pages_written"></column>
+          <column name="pages_read_rate"></column>
+          <column name="pages_create_rate"></column>
+          <column name="pages_written_rate"></column>
+          <column name="number_pages_get"></column>
+          <column name="hit_rate"></column>
+          <column name="young_make_per_thousand_gets"></column>
+          <column name="not_young_make_per_thousand_gets"></column>
+          <column name="number_pages_read_ahead"></column>
+          <column name="number_read_ahead_evicted"></column>
+          <column name="read_ahead_rate"></column>
+          <column name="read_ahead_evicted_rate"></column>
+          <column name="lru_io_total"></column>
+          <column name="lru_io_current"></column>
+          <column name="uncompress_total"></column>
+          <column name="uncompress_current"></column>
+      </metadata>
+  </dataset>

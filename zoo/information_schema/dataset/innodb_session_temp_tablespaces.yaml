@@ -1,0 +1,10 @@
+  <dataset>
+      <metadata>
+          <column name="id"></column>
+          <column name="space"></column>
+          <column name="path"></column>
+          <column name="size"></column>
+          <column name="state"></column>
+          <column name="purpose"></column>
+      </metadata>
+  </dataset>

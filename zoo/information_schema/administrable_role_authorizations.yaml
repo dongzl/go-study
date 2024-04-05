@@ -1,0 +1,84 @@
+columns:
+  user:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: USER
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  host:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: HOST
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  grantee:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: GRANTEE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  grantee_host:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: GRANTEE_HOST
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  role_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROLE_NAME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  role_host:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ROLE_HOST
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_grantable:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_GRANTABLE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_default:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_DEFAULT
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_mandatory:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: IS_MANDATORY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: ADMINISTRABLE_ROLE_AUTHORIZATIONS
+type: TABLE

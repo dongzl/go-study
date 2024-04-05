@@ -1,0 +1,7 @@
+  <dataset>
+      <metadata>
+          <column name="index_id"></column>
+          <column name="name"></column>
+          <column name="pos"></column>
+      </metadata>
+  </dataset>

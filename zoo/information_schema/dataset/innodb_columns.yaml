@@ -1,0 +1,12 @@
+  <dataset>
+      <metadata>
+          <column name="table_id"></column>
+          <column name="name"></column>
+          <column name="pos"></column>
+          <column name="mtype"></column>
+          <column name="prtype"></column>
+          <column name="len"></column>
+          <column name="has_default"></column>
+          <column name="default_value"></column>
+      </metadata>
+  </dataset>
