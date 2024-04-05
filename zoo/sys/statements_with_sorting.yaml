@@ -4,7 +4,7 @@ columns:
     dataType: -1
     generated: false
     name: query
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,13 +13,13 @@ columns:
     dataType: 12
     generated: false
     name: db
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   exec_count:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: exec_count
     nullable: false
@@ -28,16 +28,16 @@ columns:
     visible: true
   total_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: total_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   sort_merge_passes:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: sort_merge_passes
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   sorts_using_scans:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: sorts_using_scans
     nullable: false
@@ -64,7 +64,7 @@ columns:
     visible: true
   sort_using_range:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: sort_using_range
     nullable: false
@@ -73,7 +73,7 @@ columns:
     visible: true
   rows_sorted:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: rows_sorted
     nullable: false
@@ -112,8 +112,9 @@ columns:
     dataType: 12
     generated: false
     name: digest
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: statements_with_sorting
+type: TABLE

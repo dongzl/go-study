@@ -1,7 +1,7 @@
 columns:
   thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: thread_id
     nullable: false
@@ -13,7 +13,7 @@ columns:
     dataType: 12
     generated: false
     name: ssl_version
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -22,7 +22,7 @@ columns:
     dataType: 12
     generated: false
     name: ssl_cipher
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -31,8 +31,9 @@ columns:
     dataType: 12
     generated: false
     name: ssl_sessions_reused
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: session_ssl_status
+type: TABLE

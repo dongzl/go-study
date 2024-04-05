@@ -4,7 +4,7 @@ columns:
     dataType: 12
     generated: false
     name: object_schema
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,13 +13,13 @@ columns:
     dataType: 12
     generated: false
     name: object_name
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   waiting_thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: waiting_thread_id
     nullable: false
@@ -28,10 +28,10 @@ columns:
     visible: true
   waiting_pid:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: waiting_pid
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -40,7 +40,7 @@ columns:
     dataType: -1
     generated: false
     name: waiting_account
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -67,40 +67,40 @@ columns:
     dataType: -1
     generated: false
     name: waiting_query
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   waiting_query_secs:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: waiting_query_secs
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   waiting_query_rows_affected:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: waiting_query_rows_affected
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   waiting_query_rows_examined:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: waiting_query_rows_examined
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   blocking_thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: blocking_thread_id
     nullable: false
@@ -109,10 +109,10 @@ columns:
     visible: true
   blocking_pid:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: blocking_pid
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -121,7 +121,7 @@ columns:
     dataType: -1
     generated: false
     name: blocking_account
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -148,7 +148,7 @@ columns:
     dataType: 12
     generated: false
     name: sql_kill_blocking_query
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -157,8 +157,9 @@ columns:
     dataType: 12
     generated: false
     name: sql_kill_blocking_connection
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: schema_table_lock_waits
+type: TABLE

@@ -1,6 +1,6 @@
 columns:
   db:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: db
@@ -9,17 +9,17 @@ columns:
     unsigned: false
     visible: true
   object_type:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: object_type
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   count:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: count
     nullable: false
@@ -27,3 +27,4 @@ columns:
     unsigned: false
     visible: true
 name: schema_object_overview
+type: TABLE

@@ -1,10 +1,10 @@
 columns:
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 12
     generated: false
     name: host
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,34 +13,43 @@ columns:
     dataType: 3
     generated: false
     name: total
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   total_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: total_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   max_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: max_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   lock_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: lock_latency
-    nullable: false
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  cpu_latency:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: cpu_latency
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -49,7 +58,7 @@ columns:
     dataType: 3
     generated: false
     name: rows_sent
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -58,7 +67,7 @@ columns:
     dataType: 3
     generated: false
     name: rows_examined
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -67,7 +76,7 @@ columns:
     dataType: 3
     generated: false
     name: rows_affected
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -76,8 +85,9 @@ columns:
     dataType: 3
     generated: false
     name: full_scans
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: host_summary_by_statement_latency
+type: TABLE

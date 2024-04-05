@@ -1,6 +1,6 @@
 columns:
   table_schema:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: table_schema
@@ -9,7 +9,7 @@ columns:
     unsigned: false
     visible: true
   table_name:
-    caseSensitive: false
+    caseSensitive: true
     dataType: 12
     generated: false
     name: table_name
@@ -22,21 +22,21 @@ columns:
     dataType: 12
     generated: false
     name: column_name
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   data_type:
-    caseSensitive: false
-    dataType: 12
+    caseSensitive: true
+    dataType: -1
     generated: false
     name: data_type
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   column_type:
-    caseSensitive: false
+    caseSensitive: true
     dataType: -1
     generated: false
     name: column_type
@@ -64,19 +64,19 @@ columns:
     visible: true
   max_value:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: max_value
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   auto_increment:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: auto_increment
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -85,8 +85,9 @@ columns:
     dataType: 3
     generated: false
     name: auto_increment_ratio
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
 name: schema_auto_increment_columns
+type: TABLE

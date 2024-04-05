@@ -4,7 +4,7 @@ columns:
     dataType: -1
     generated: false
     name: query
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,13 +13,13 @@ columns:
     dataType: 12
     generated: false
     name: db
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   exec_count:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: exec_count
     nullable: false
@@ -28,7 +28,7 @@ columns:
     visible: true
   errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: errors
     nullable: false
@@ -46,7 +46,7 @@ columns:
     visible: true
   warnings:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: warnings
     nullable: false
@@ -85,8 +85,9 @@ columns:
     dataType: 12
     generated: false
     name: digest
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: statements_with_errors_or_warnings
+type: TABLE

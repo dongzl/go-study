@@ -4,7 +4,7 @@ columns:
     dataType: 12
     generated: false
     name: user
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -19,7 +19,7 @@ columns:
     visible: true
   total:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: total
     nullable: false
@@ -28,20 +28,21 @@ columns:
     visible: true
   latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   max_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: max_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: user_summary_by_file_io_type
+type: TABLE

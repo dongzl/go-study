@@ -1,0 +1,30 @@
+columns:
+  user:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: user
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  ios:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: ios
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  io_latency:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: io_latency
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: x$user_summary_by_file_io
+type: TABLE

@@ -1,10 +1,10 @@
 columns:
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 12
     generated: false
     name: host
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,44 +13,45 @@ columns:
     dataType: 3
     generated: false
     name: current_count_used
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   current_allocated:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: current_allocated
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   current_avg_alloc:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: current_avg_alloc
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   current_max_alloc:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: current_max_alloc
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   total_allocated:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: total_allocated
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: memory_by_host_by_current_bytes
+type: TABLE

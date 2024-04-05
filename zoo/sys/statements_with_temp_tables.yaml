@@ -4,7 +4,7 @@ columns:
     dataType: -1
     generated: false
     name: query
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,13 +13,13 @@ columns:
     dataType: 12
     generated: false
     name: db
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   exec_count:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: exec_count
     nullable: false
@@ -28,16 +28,16 @@ columns:
     visible: true
   total_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: total_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   memory_tmp_tables:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: memory_tmp_tables
     nullable: false
@@ -46,7 +46,7 @@ columns:
     visible: true
   disk_tmp_tables:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: disk_tmp_tables
     nullable: false
@@ -94,8 +94,9 @@ columns:
     dataType: 12
     generated: false
     name: digest
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: statements_with_temp_tables
+type: TABLE

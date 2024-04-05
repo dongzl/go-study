@@ -1,0 +1,12 @@
+columns:
+  total_allocated:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: total_allocated
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: x$memory_global_total
+type: TABLE

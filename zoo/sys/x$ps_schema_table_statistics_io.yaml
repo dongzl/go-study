@@ -1,0 +1,93 @@
+columns:
+  table_schema:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: table_schema
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: table_name
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  count_read:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: count_read
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sum_number_of_bytes_read:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: sum_number_of_bytes_read
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sum_timer_read:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: sum_timer_read
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  count_write:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: count_write
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sum_number_of_bytes_write:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: sum_number_of_bytes_write
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sum_timer_write:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: sum_timer_write
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  count_misc:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: count_misc
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sum_timer_misc:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: sum_timer_misc
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: x$ps_schema_table_statistics_io
+type: TABLE

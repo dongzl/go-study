@@ -1,0 +1,21 @@
+columns:
+  cnt:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: cnt
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  avg_us:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: avg_us
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: x$ps_digest_avg_latency_distribution
+type: TABLE

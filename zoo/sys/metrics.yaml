@@ -13,7 +13,7 @@ columns:
     dataType: -1
     generated: false
     name: Variable_value
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -36,3 +36,4 @@ columns:
     unsigned: false
     visible: true
 name: metrics
+type: TABLE

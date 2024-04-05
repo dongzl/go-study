@@ -13,8 +13,9 @@ columns:
     dataType: 12
     generated: false
     name: variable_value
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: ps_check_lost_instrumentation
+type: TABLE

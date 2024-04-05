@@ -4,7 +4,7 @@ columns:
     dataType: 12
     generated: false
     name: object_schema
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,7 +13,7 @@ columns:
     dataType: 12
     generated: false
     name: object_name
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -22,8 +22,9 @@ columns:
     dataType: 12
     generated: false
     name: index_name
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: schema_unused_indexes
+type: TABLE

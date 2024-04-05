@@ -1,0 +1,48 @@
+columns:
+  user:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: user
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  event_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: event_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: total
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_latency:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: total_latency
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  avg_latency:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: avg_latency
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: x$user_summary_by_stages
+type: TABLE

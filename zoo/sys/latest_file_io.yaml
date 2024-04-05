@@ -4,7 +4,7 @@ columns:
     dataType: 12
     generated: false
     name: thread
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,16 +13,16 @@ columns:
     dataType: 12
     generated: false
     name: file
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -37,11 +37,12 @@ columns:
     visible: true
   requested:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: requested
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: latest_file_io
+type: TABLE

@@ -1,0 +1,84 @@
+columns:
+  file:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: file
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  count_read:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: count_read
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_read:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: total_read
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  avg_read:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: avg_read
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  count_write:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: count_write
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_written:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: total_written
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  avg_write:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: avg_write
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: total
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  write_pct:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: write_pct
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: x$io_global_by_file_by_bytes
+type: TABLE

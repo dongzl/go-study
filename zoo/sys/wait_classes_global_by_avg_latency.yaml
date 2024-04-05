@@ -4,7 +4,7 @@ columns:
     dataType: 12
     generated: false
     name: event_class
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,44 +13,45 @@ columns:
     dataType: 3
     generated: false
     name: total
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   total_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: total_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   min_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: min_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   avg_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: avg_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   max_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: max_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: wait_classes_global_by_avg_latency
+type: TABLE

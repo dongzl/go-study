@@ -1,0 +1,48 @@
+columns:
+  thread:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: thread
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  file:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: file
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  latency:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: latency
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  operation:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: operation
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  requested:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: requested
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: x$latest_file_io
+type: TABLE

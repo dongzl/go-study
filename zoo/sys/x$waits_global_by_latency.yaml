@@ -1,0 +1,48 @@
+columns:
+  events:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: events
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  total:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: total
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  total_latency:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: total_latency
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  avg_latency:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: avg_latency
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  max_latency:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: max_latency
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+name: x$waits_global_by_latency
+type: TABLE

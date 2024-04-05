@@ -1,0 +1,57 @@
+columns:
+  table_schema:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: table_schema
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  table_name:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: table_name
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  index_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: index_name
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  non_unique:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: non_unique
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  subpart_exists:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: subpart_exists
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  index_columns:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: index_columns
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: x$schema_flattened_keys
+type: TABLE

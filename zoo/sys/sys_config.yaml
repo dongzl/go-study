@@ -13,7 +13,7 @@ columns:
     dataType: 12
     generated: false
     name: value
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -22,7 +22,7 @@ columns:
     dataType: 93
     generated: false
     name: set_time
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -31,12 +31,15 @@ columns:
     dataType: 12
     generated: false
     name: set_by
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 indexes:
   primary:
+    columns:
+    - variable
     name: PRIMARY
-    unique: false
+    unique: true
 name: sys_config
+type: TABLE

@@ -10,7 +10,7 @@ columns:
     visible: true
   total:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: total
     nullable: false
@@ -19,29 +19,30 @@ columns:
     visible: true
   total_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: total_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   avg_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: avg_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   max_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: max_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: waits_global_by_latency
+type: TABLE

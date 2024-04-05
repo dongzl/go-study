@@ -4,13 +4,13 @@ columns:
     dataType: 12
     generated: false
     name: file
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   total:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: total
     nullable: false
@@ -19,16 +19,16 @@ columns:
     visible: true
   total_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: total_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   count_read:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: count_read
     nullable: false
@@ -37,16 +37,16 @@ columns:
     visible: true
   read_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: read_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   count_write:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: count_write
     nullable: false
@@ -55,16 +55,16 @@ columns:
     visible: true
   write_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: write_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   count_misc:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: count_misc
     nullable: false
@@ -73,11 +73,12 @@ columns:
     visible: true
   misc_latency:
     caseSensitive: false
-    dataType: -1
+    dataType: 12
     generated: false
     name: misc_latency
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: io_global_by_file_by_latency
+type: TABLE

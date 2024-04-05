@@ -1,0 +1,21 @@
+columns:
+  avg_us:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: avg_us
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  percentile:
+    caseSensitive: false
+    dataType: 3
+    generated: false
+    name: percentile
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: x$ps_digest_95th_percentile_by_avg_us
+type: TABLE
