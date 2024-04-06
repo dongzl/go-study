@@ -46,7 +46,7 @@ columns:
     visible: true
   stat_value:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: stat_value
     nullable: false
@@ -55,10 +55,10 @@ columns:
     visible: true
   sample_size:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: sample_size
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -73,6 +73,12 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - database_name
+    - table_name
+    - index_name
+    - stat_name
     name: PRIMARY
-    unique: false
+    unique: true
 name: innodb_index_stats
+type: TABLE

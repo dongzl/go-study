@@ -18,10 +18,15 @@ columns:
     unsigned: false
     visible: true
 indexes:
-  primary:
-    name: PRIMARY
-    unique: false
   name:
+    columns:
+    - name
     name: name
-    unique: false
+    unique: true
+  primary:
+    columns:
+    - help_keyword_id
+    name: PRIMARY
+    unique: true
 name: help_keyword
+type: TABLE

@@ -10,7 +10,7 @@ columns:
     visible: true
   transition_time:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Transition_time
     nullable: false
@@ -28,6 +28,10 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - Time_zone_id
+    - Transition_time
     name: PRIMARY
-    unique: false
+    unique: true
 name: time_zone_transition
+type: TABLE

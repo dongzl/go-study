@@ -13,16 +13,16 @@ columns:
     dataType: -1
     generated: false
     name: Relay_log_name
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   relay_log_pos:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Relay_log_pos
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -31,16 +31,16 @@ columns:
     dataType: -1
     generated: false
     name: Master_log_name
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   master_log_pos:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Master_log_pos
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -49,7 +49,7 @@ columns:
     dataType: 4
     generated: false
     name: Sql_delay
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -58,7 +58,7 @@ columns:
     dataType: 4
     generated: false
     name: Number_of_workers
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -67,21 +67,78 @@ columns:
     dataType: 4
     generated: false
     name: Id
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   channel_name:
     caseSensitive: false
-    dataType: 1
+    dataType: 12
     generated: false
     name: Channel_name
     nullable: false
     primaryKey: true
     unsigned: false
     visible: true
+  privilege_checks_username:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: Privilege_checks_username
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  privilege_checks_hostname:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: Privilege_checks_hostname
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  require_row_format:
+    caseSensitive: false
+    dataType: -6
+    generated: false
+    name: Require_row_format
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  require_table_primary_key_check:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: Require_table_primary_key_check
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  assign_gtids_to_anonymous_transactions_type:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: Assign_gtids_to_anonymous_transactions_type
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  assign_gtids_to_anonymous_transactions_value:
+    caseSensitive: true
+    dataType: -1
+    generated: false
+    name: Assign_gtids_to_anonymous_transactions_value
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
 indexes:
   primary:
+    columns:
+    - Channel_name
     name: PRIMARY
-    unique: false
+    unique: true
 name: slave_relay_log_info
+type: TABLE

@@ -19,6 +19,10 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - help_keyword_id
+    - help_topic_id
     name: PRIMARY
-    unique: false
+    unique: true
 name: help_relation
+type: TABLE

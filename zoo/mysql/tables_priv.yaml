@@ -1,6 +1,6 @@
 columns:
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: Host
@@ -37,7 +37,7 @@ columns:
     visible: true
   grantor:
     caseSensitive: true
-    dataType: 1
+    dataType: 12
     generated: false
     name: Grantor
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   table_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Table_priv
     nullable: false
@@ -64,7 +64,7 @@ columns:
     visible: true
   column_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Column_priv
     nullable: false
@@ -72,10 +72,18 @@ columns:
     unsigned: false
     visible: true
 indexes:
-  primary:
-    name: PRIMARY
-    unique: false
   grantor:
+    columns:
+    - Grantor
     name: Grantor
     unique: false
+  primary:
+    columns:
+    - Host
+    - User
+    - Db
+    - Table_name
+    name: PRIMARY
+    unique: true
 name: tables_priv
+type: TABLE

@@ -1,6 +1,6 @@
 columns:
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: Host
@@ -55,7 +55,7 @@ columns:
     visible: true
   column_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Column_priv
     nullable: false
@@ -64,6 +64,13 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - Host
+    - User
+    - Db
+    - Table_name
+    - Column_name
     name: PRIMARY
-    unique: false
+    unique: true
 name: columns_priv
+type: TABLE

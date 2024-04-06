@@ -46,6 +46,10 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - Time_zone_id
+    - Transition_type_id
     name: PRIMARY
-    unique: false
+    unique: true
 name: time_zone_transition_type
+type: TABLE

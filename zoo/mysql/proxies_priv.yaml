@@ -1,6 +1,6 @@
 columns:
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: Host
@@ -18,7 +18,7 @@ columns:
     unsigned: false
     visible: true
   proxied_host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: Proxied_host
@@ -46,7 +46,7 @@ columns:
     visible: true
   grantor:
     caseSensitive: true
-    dataType: 1
+    dataType: 12
     generated: false
     name: Grantor
     nullable: false
@@ -63,10 +63,18 @@ columns:
     unsigned: false
     visible: true
 indexes:
-  primary:
-    name: PRIMARY
-    unique: false
   grantor:
+    columns:
+    - Grantor
     name: Grantor
     unique: false
+  primary:
+    columns:
+    - Host
+    - User
+    - Proxied_host
+    - Proxied_user
+    name: PRIMARY
+    unique: true
 name: proxies_priv
+type: TABLE

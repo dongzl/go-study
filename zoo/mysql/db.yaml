@@ -1,6 +1,6 @@
 columns:
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: Host
@@ -28,7 +28,7 @@ columns:
     visible: true
   select_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Select_priv
     nullable: false
@@ -37,7 +37,7 @@ columns:
     visible: true
   insert_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Insert_priv
     nullable: false
@@ -46,7 +46,7 @@ columns:
     visible: true
   update_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Update_priv
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   delete_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Delete_priv
     nullable: false
@@ -64,7 +64,7 @@ columns:
     visible: true
   create_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Create_priv
     nullable: false
@@ -73,7 +73,7 @@ columns:
     visible: true
   drop_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Drop_priv
     nullable: false
@@ -82,7 +82,7 @@ columns:
     visible: true
   grant_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Grant_priv
     nullable: false
@@ -91,7 +91,7 @@ columns:
     visible: true
   references_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: References_priv
     nullable: false
@@ -100,7 +100,7 @@ columns:
     visible: true
   index_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Index_priv
     nullable: false
@@ -109,7 +109,7 @@ columns:
     visible: true
   alter_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Alter_priv
     nullable: false
@@ -118,7 +118,7 @@ columns:
     visible: true
   create_tmp_table_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Create_tmp_table_priv
     nullable: false
@@ -127,7 +127,7 @@ columns:
     visible: true
   lock_tables_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Lock_tables_priv
     nullable: false
@@ -136,7 +136,7 @@ columns:
     visible: true
   create_view_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Create_view_priv
     nullable: false
@@ -145,7 +145,7 @@ columns:
     visible: true
   show_view_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Show_view_priv
     nullable: false
@@ -154,7 +154,7 @@ columns:
     visible: true
   create_routine_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Create_routine_priv
     nullable: false
@@ -163,7 +163,7 @@ columns:
     visible: true
   alter_routine_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Alter_routine_priv
     nullable: false
@@ -172,7 +172,7 @@ columns:
     visible: true
   execute_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Execute_priv
     nullable: false
@@ -181,7 +181,7 @@ columns:
     visible: true
   event_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Event_priv
     nullable: false
@@ -190,7 +190,7 @@ columns:
     visible: true
   trigger_priv:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Trigger_priv
     nullable: false
@@ -198,10 +198,17 @@ columns:
     unsigned: false
     visible: true
 indexes:
-  primary:
-    name: PRIMARY
-    unique: false
   user:
+    columns:
+    - User
     name: User
     unique: false
+  primary:
+    columns:
+    - Host
+    - User
+    - Db
+    name: PRIMARY
+    unique: true
 name: db
+type: TABLE

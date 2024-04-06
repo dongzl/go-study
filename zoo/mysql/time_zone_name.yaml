@@ -19,6 +19,9 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - Name
     name: PRIMARY
-    unique: false
+    unique: true
 name: time_zone_name
+type: TABLE

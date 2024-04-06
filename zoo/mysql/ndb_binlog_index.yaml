@@ -1,7 +1,7 @@
 columns:
   position:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Position
     nullable: false
@@ -19,7 +19,7 @@ columns:
     visible: true
   epoch:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: epoch
     nullable: false
@@ -73,7 +73,7 @@ columns:
     visible: true
   orig_epoch:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: orig_epoch
     nullable: false
@@ -91,7 +91,7 @@ columns:
     visible: true
   next_position:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: next_position
     nullable: false
@@ -109,6 +109,11 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - epoch
+    - orig_server_id
+    - orig_epoch
     name: PRIMARY
-    unique: false
+    unique: true
 name: ndb_binlog_index
+type: TABLE

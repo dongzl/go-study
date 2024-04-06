@@ -1,7 +1,7 @@
 columns:
   transition_time:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Transition_time
     nullable: false
@@ -19,6 +19,9 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - Transition_time
     name: PRIMARY
-    unique: false
+    unique: true
 name: time_zone_leap_second
+type: TABLE

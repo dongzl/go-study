@@ -19,7 +19,7 @@ columns:
     visible: true
   relay_log_pos:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Relay_log_pos
     nullable: false
@@ -37,7 +37,7 @@ columns:
     visible: true
   master_log_pos:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Master_log_pos
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   checkpoint_relay_log_pos:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Checkpoint_relay_log_pos
     nullable: false
@@ -73,7 +73,7 @@ columns:
     visible: true
   checkpoint_master_log_pos:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: Checkpoint_master_log_pos
     nullable: false
@@ -109,7 +109,7 @@ columns:
     visible: true
   channel_name:
     caseSensitive: false
-    dataType: 1
+    dataType: 12
     generated: false
     name: Channel_name
     nullable: false
@@ -118,6 +118,10 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - Channel_name
+    - Id
     name: PRIMARY
-    unique: false
+    unique: true
 name: slave_worker_info
+type: TABLE

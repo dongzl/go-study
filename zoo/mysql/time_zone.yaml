@@ -10,7 +10,7 @@ columns:
     visible: true
   use_leap_seconds:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: Use_leap_seconds
     nullable: false
@@ -19,6 +19,9 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - Time_zone_id
     name: PRIMARY
-    unique: false
+    unique: true
 name: time_zone
+type: TABLE

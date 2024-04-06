@@ -82,6 +82,9 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - Server_name
     name: PRIMARY
-    unique: false
+    unique: true
 name: servers
+type: TABLE

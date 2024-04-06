@@ -28,7 +28,7 @@ columns:
     visible: true
   type:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: type
     nullable: false
@@ -37,6 +37,9 @@ columns:
     visible: true
 indexes:
   primary:
+    columns:
+    - name
     name: PRIMARY
-    unique: false
+    unique: true
 name: func
+type: TABLE
