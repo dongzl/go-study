@@ -5,7 +5,7 @@ columns:
     generated: false
     name: FILE_NAME
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   event_name:
@@ -26,4 +26,16 @@ columns:
     primaryKey: false
     unsigned: true
     visible: true
+indexes:
+  event_name:
+    columns:
+    - EVENT_NAME
+    name: EVENT_NAME
+    unique: false
+  primary:
+    columns:
+    - FILE_NAME
+    name: PRIMARY
+    unique: true
 name: file_instances
+type: TABLE

@@ -1,0 +1,57 @@
+columns:
+  channel_name:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: CHANNEL_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  host:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: HOST
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  port:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: PORT
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  network_namespace:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: NETWORK_NAMESPACE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  weight:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: WEIGHT
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  managed_name:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: MANAGED_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: replication_asynchronous_connection_failover
+type: TABLE

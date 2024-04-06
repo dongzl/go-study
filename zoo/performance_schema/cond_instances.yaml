@@ -10,11 +10,23 @@ columns:
     visible: true
   object_instance_begin:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: OBJECT_INSTANCE_BEGIN
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: true
     visible: true
+indexes:
+  primary:
+    columns:
+    - OBJECT_INSTANCE_BEGIN
+    name: PRIMARY
+    unique: true
+  name:
+    columns:
+    - NAME
+    name: NAME
+    unique: false
 name: cond_instances
+type: TABLE

@@ -1,7 +1,7 @@
 columns:
   object_type:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: OBJECT_TYPE
     nullable: false
@@ -13,7 +13,7 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_SCHEMA
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -28,7 +28,7 @@ columns:
     visible: true
   enabled:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: ENABLED
     nullable: false
@@ -37,11 +37,20 @@ columns:
     visible: true
   timed:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: TIMED
     nullable: false
     primaryKey: false
     unsigned: false
     visible: true
+indexes:
+  object:
+    columns:
+    - OBJECT_TYPE
+    - OBJECT_SCHEMA
+    - OBJECT_NAME
+    name: OBJECT
+    unique: true
 name: setup_objects
+type: TABLE

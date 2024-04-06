@@ -5,12 +5,12 @@ columns:
     generated: false
     name: CHANNEL_NAME
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   service_state:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: SERVICE_STATE
     nullable: false
@@ -22,17 +22,24 @@ columns:
     dataType: 4
     generated: false
     name: REMAINING_DELAY
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   count_transactions_retries:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_TRANSACTIONS_RETRIES
     nullable: false
     primaryKey: false
     unsigned: true
     visible: true
+indexes:
+  primary:
+    columns:
+    - CHANNEL_NAME
+    name: PRIMARY
+    unique: true
 name: replication_applier_status
+type: TABLE

@@ -28,28 +28,28 @@ columns:
     visible: true
   object_instance_begin:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: OBJECT_INSTANCE_BEGIN
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: true
     visible: true
   owner_thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: OWNER_THREAD_ID
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   owner_event_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: OWNER_EVENT_ID
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -58,7 +58,7 @@ columns:
     dataType: 12
     generated: false
     name: INTERNAL_LOCK
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -67,8 +67,28 @@ columns:
     dataType: 12
     generated: false
     name: EXTERNAL_LOCK
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
+indexes:
+  primary:
+    columns:
+    - OBJECT_INSTANCE_BEGIN
+    name: PRIMARY
+    unique: true
+  owner_thread_id:
+    columns:
+    - OWNER_THREAD_ID
+    - OWNER_EVENT_ID
+    name: OWNER_THREAD_ID
+    unique: false
+  object_type:
+    columns:
+    - OBJECT_TYPE
+    - OBJECT_SCHEMA
+    - OBJECT_NAME
+    name: OBJECT_TYPE
+    unique: false
 name: table_handles
+type: TABLE

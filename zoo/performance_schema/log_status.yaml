@@ -1,0 +1,39 @@
+columns:
+  server_uuid:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: SERVER_UUID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  local:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: LOCAL
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  replication:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: REPLICATION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  storage_engines:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: STORAGE_ENGINES
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: log_status
+type: TABLE

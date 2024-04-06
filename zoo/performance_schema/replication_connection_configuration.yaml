@@ -5,11 +5,11 @@ columns:
     generated: false
     name: CHANNEL_NAME
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: HOST
@@ -46,7 +46,7 @@ columns:
     visible: true
   auto_position:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: AUTO_POSITION
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   ssl_allowed:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: SSL_ALLOWED
     nullable: false
@@ -109,7 +109,7 @@ columns:
     visible: true
   ssl_verify_server_certificate:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: SSL_VERIFY_SERVER_CERTIFICATE
     nullable: false
@@ -145,7 +145,7 @@ columns:
     visible: true
   connection_retry_count:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: CONNECTION_RETRY_COUNT
     nullable: false
@@ -159,7 +159,7 @@ columns:
     name: HEARTBEAT_INTERVAL
     nullable: false
     primaryKey: false
-    unsigned: true
+    unsigned: false
     visible: true
   tls_version:
     caseSensitive: false
@@ -170,4 +170,83 @@ columns:
     primaryKey: false
     unsigned: false
     visible: true
+  public_key_path:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: PUBLIC_KEY_PATH
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  get_public_key:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: GET_PUBLIC_KEY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  network_namespace:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NETWORK_NAMESPACE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  compression_algorithm:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: COMPRESSION_ALGORITHM
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  zstd_compression_level:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ZSTD_COMPRESSION_LEVEL
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  tls_ciphersuites:
+    caseSensitive: true
+    dataType: -1
+    generated: false
+    name: TLS_CIPHERSUITES
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  source_connection_auto_failover:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: SOURCE_CONNECTION_AUTO_FAILOVER
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  gtid_only:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: GTID_ONLY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    columns:
+    - CHANNEL_NAME
+    name: PRIMARY
+    unique: true
 name: replication_connection_configuration
+type: TABLE

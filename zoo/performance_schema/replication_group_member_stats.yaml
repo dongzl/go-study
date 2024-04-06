@@ -28,7 +28,7 @@ columns:
     visible: true
   count_transactions_in_queue:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_TRANSACTIONS_IN_QUEUE
     nullable: false
@@ -37,7 +37,7 @@ columns:
     visible: true
   count_transactions_checked:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_TRANSACTIONS_CHECKED
     nullable: false
@@ -46,7 +46,7 @@ columns:
     visible: true
   count_conflicts_detected:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_CONFLICTS_DETECTED
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   count_transactions_rows_validating:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_TRANSACTIONS_ROWS_VALIDATING
     nullable: false
@@ -80,4 +80,41 @@ columns:
     primaryKey: false
     unsigned: false
     visible: true
+  count_transactions_remote_in_applier_queue:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: COUNT_TRANSACTIONS_REMOTE_IN_APPLIER_QUEUE
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  count_transactions_remote_applied:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: COUNT_TRANSACTIONS_REMOTE_APPLIED
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  count_transactions_local_proposed:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: COUNT_TRANSACTIONS_LOCAL_PROPOSED
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  count_transactions_local_rollback:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: COUNT_TRANSACTIONS_LOCAL_ROLLBACK
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
 name: replication_group_member_stats
+type: TABLE

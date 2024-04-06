@@ -1,0 +1,139 @@
+columns:
+  engine:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ENGINE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  requesting_engine_lock_id:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: REQUESTING_ENGINE_LOCK_ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  requesting_engine_transaction_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: REQUESTING_ENGINE_TRANSACTION_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  requesting_thread_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: REQUESTING_THREAD_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  requesting_event_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: REQUESTING_EVENT_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  requesting_object_instance_begin:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: REQUESTING_OBJECT_INSTANCE_BEGIN
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  blocking_engine_lock_id:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: BLOCKING_ENGINE_LOCK_ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  blocking_engine_transaction_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: BLOCKING_ENGINE_TRANSACTION_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  blocking_thread_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: BLOCKING_THREAD_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  blocking_event_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: BLOCKING_EVENT_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  blocking_object_instance_begin:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: BLOCKING_OBJECT_INSTANCE_BEGIN
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+indexes:
+  blocking_engine_lock_id:
+    columns:
+    - BLOCKING_ENGINE_LOCK_ID
+    - ENGINE
+    name: BLOCKING_ENGINE_LOCK_ID
+    unique: false
+  requesting_thread_id:
+    columns:
+    - REQUESTING_THREAD_ID
+    - REQUESTING_EVENT_ID
+    name: REQUESTING_THREAD_ID
+    unique: false
+  blocking_engine_transaction_id:
+    columns:
+    - BLOCKING_ENGINE_TRANSACTION_ID
+    - ENGINE
+    name: BLOCKING_ENGINE_TRANSACTION_ID
+    unique: false
+  blocking_thread_id:
+    columns:
+    - BLOCKING_THREAD_ID
+    - BLOCKING_EVENT_ID
+    name: BLOCKING_THREAD_ID
+    unique: false
+  requesting_engine_transaction_id:
+    columns:
+    - REQUESTING_ENGINE_TRANSACTION_ID
+    - ENGINE
+    name: REQUESTING_ENGINE_TRANSACTION_ID
+    unique: false
+  requesting_engine_lock_id:
+    columns:
+    - REQUESTING_ENGINE_LOCK_ID
+    - ENGINE
+    name: REQUESTING_ENGINE_LOCK_ID
+    unique: false
+name: data_lock_waits
+type: TABLE

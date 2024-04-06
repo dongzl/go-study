@@ -10,19 +10,19 @@ columns:
     visible: true
   object_instance_begin:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: OBJECT_INSTANCE_BEGIN
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: true
     visible: true
   write_locked_by_thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: WRITE_LOCKED_BY_THREAD_ID
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -35,4 +35,21 @@ columns:
     primaryKey: false
     unsigned: true
     visible: true
+indexes:
+  write_locked_by_thread_id:
+    columns:
+    - WRITE_LOCKED_BY_THREAD_ID
+    name: WRITE_LOCKED_BY_THREAD_ID
+    unique: false
+  primary:
+    columns:
+    - OBJECT_INSTANCE_BEGIN
+    name: PRIMARY
+    unique: true
+  name:
+    columns:
+    - NAME
+    name: NAME
+    unique: false
 name: rwlock_instances
+type: TABLE

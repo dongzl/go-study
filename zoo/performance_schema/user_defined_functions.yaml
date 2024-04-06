@@ -1,0 +1,54 @@
+columns:
+  udf_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: UDF_NAME
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  udf_return_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: UDF_RETURN_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  udf_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: UDF_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  udf_library:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: UDF_LIBRARY
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  udf_usage_count:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: UDF_USAGE_COUNT
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    columns:
+    - UDF_NAME
+    name: PRIMARY
+    unique: true
+name: user_defined_functions
+type: TABLE

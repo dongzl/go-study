@@ -1,10 +1,10 @@
 columns:
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: HOST
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -22,8 +22,16 @@ columns:
     dataType: 12
     generated: false
     name: VARIABLE_VALUE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
+indexes:
+  host:
+    columns:
+    - HOST
+    - VARIABLE_NAME
+    name: HOST
+    unique: true
 name: status_by_host
+type: TABLE

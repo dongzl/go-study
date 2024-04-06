@@ -1,0 +1,82 @@
+columns:
+  host:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: HOST
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  error_number:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: ERROR_NUMBER
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  error_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: ERROR_NAME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sql_state:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SQL_STATE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  sum_error_raised:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: SUM_ERROR_RAISED
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  sum_error_handled:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: SUM_ERROR_HANDLED
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  first_seen:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: FIRST_SEEN
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  last_seen:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: LAST_SEEN
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  host:
+    columns:
+    - HOST
+    - ERROR_NUMBER
+    name: HOST
+    unique: true
+name: events_errors_summary_by_host_by_error
+type: TABLE

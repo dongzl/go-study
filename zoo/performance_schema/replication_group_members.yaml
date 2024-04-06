@@ -18,7 +18,7 @@ columns:
     unsigned: false
     visible: true
   member_host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: MEMBER_HOST
@@ -31,7 +31,7 @@ columns:
     dataType: 4
     generated: false
     name: MEMBER_PORT
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -44,4 +44,32 @@ columns:
     primaryKey: false
     unsigned: false
     visible: true
+  member_role:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: MEMBER_ROLE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  member_version:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: MEMBER_VERSION
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  member_communication_stack:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: MEMBER_COMMUNICATION_STACK
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
 name: replication_group_members
+type: TABLE

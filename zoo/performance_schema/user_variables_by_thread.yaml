@@ -1,11 +1,11 @@
 columns:
   thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: THREAD_ID
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: true
     visible: true
   variable_name:
@@ -14,7 +14,7 @@ columns:
     generated: false
     name: VARIABLE_NAME
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   variable_value:
@@ -22,8 +22,16 @@ columns:
     dataType: -4
     generated: false
     name: VARIABLE_VALUE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
+indexes:
+  primary:
+    columns:
+    - THREAD_ID
+    - VARIABLE_NAME
+    name: PRIMARY
+    unique: true
 name: user_variables_by_thread
+type: TABLE

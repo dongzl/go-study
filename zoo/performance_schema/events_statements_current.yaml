@@ -1,28 +1,28 @@
 columns:
   thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: THREAD_ID
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: true
     visible: true
   event_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: EVENT_ID
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: true
     visible: true
   end_event_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: END_EVENT_ID
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -40,40 +40,40 @@ columns:
     dataType: 12
     generated: false
     name: SOURCE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   timer_start:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_START
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   timer_end:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_END
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_WAIT
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   lock_time:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: LOCK_TIME
     nullable: false
@@ -85,7 +85,7 @@ columns:
     dataType: -1
     generated: false
     name: SQL_TEXT
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -94,7 +94,7 @@ columns:
     dataType: 12
     generated: false
     name: DIGEST
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -103,7 +103,7 @@ columns:
     dataType: -1
     generated: false
     name: DIGEST_TEXT
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -112,7 +112,7 @@ columns:
     dataType: 12
     generated: false
     name: CURRENT_SCHEMA
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -121,7 +121,7 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_TYPE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -130,7 +130,7 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_SCHEMA
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -139,16 +139,16 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   object_instance_begin:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: OBJECT_INSTANCE_BEGIN
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -157,7 +157,7 @@ columns:
     dataType: 4
     generated: false
     name: MYSQL_ERRNO
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -166,7 +166,7 @@ columns:
     dataType: 12
     generated: false
     name: RETURNED_SQLSTATE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -175,13 +175,13 @@ columns:
     dataType: 12
     generated: false
     name: MESSAGE_TEXT
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: ERRORS
     nullable: false
@@ -190,7 +190,7 @@ columns:
     visible: true
   warnings:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: WARNINGS
     nullable: false
@@ -199,7 +199,7 @@ columns:
     visible: true
   rows_affected:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: ROWS_AFFECTED
     nullable: false
@@ -208,7 +208,7 @@ columns:
     visible: true
   rows_sent:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: ROWS_SENT
     nullable: false
@@ -217,7 +217,7 @@ columns:
     visible: true
   rows_examined:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: ROWS_EXAMINED
     nullable: false
@@ -226,7 +226,7 @@ columns:
     visible: true
   created_tmp_disk_tables:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: CREATED_TMP_DISK_TABLES
     nullable: false
@@ -235,7 +235,7 @@ columns:
     visible: true
   created_tmp_tables:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: CREATED_TMP_TABLES
     nullable: false
@@ -244,7 +244,7 @@ columns:
     visible: true
   select_full_join:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SELECT_FULL_JOIN
     nullable: false
@@ -253,7 +253,7 @@ columns:
     visible: true
   select_full_range_join:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SELECT_FULL_RANGE_JOIN
     nullable: false
@@ -262,7 +262,7 @@ columns:
     visible: true
   select_range:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SELECT_RANGE
     nullable: false
@@ -271,7 +271,7 @@ columns:
     visible: true
   select_range_check:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SELECT_RANGE_CHECK
     nullable: false
@@ -280,7 +280,7 @@ columns:
     visible: true
   select_scan:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SELECT_SCAN
     nullable: false
@@ -289,7 +289,7 @@ columns:
     visible: true
   sort_merge_passes:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SORT_MERGE_PASSES
     nullable: false
@@ -298,7 +298,7 @@ columns:
     visible: true
   sort_range:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SORT_RANGE
     nullable: false
@@ -307,7 +307,7 @@ columns:
     visible: true
   sort_rows:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SORT_ROWS
     nullable: false
@@ -316,7 +316,7 @@ columns:
     visible: true
   sort_scan:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SORT_SCAN
     nullable: false
@@ -325,7 +325,7 @@ columns:
     visible: true
   no_index_used:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: NO_INDEX_USED
     nullable: false
@@ -334,7 +334,7 @@ columns:
     visible: true
   no_good_index_used:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: NO_GOOD_INDEX_USED
     nullable: false
@@ -343,19 +343,19 @@ columns:
     visible: true
   nesting_event_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: NESTING_EVENT_ID
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   nesting_event_type:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: NESTING_EVENT_TYPE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -364,8 +364,61 @@ columns:
     dataType: 4
     generated: false
     name: NESTING_EVENT_LEVEL
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
+  statement_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: STATEMENT_ID
+    nullable: true
+    primaryKey: false
+    unsigned: true
+    visible: true
+  cpu_time:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: CPU_TIME
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  max_controlled_memory:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: MAX_CONTROLLED_MEMORY
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  max_total_memory:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: MAX_TOTAL_MEMORY
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  execution_engine:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: EXECUTION_ENGINE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    columns:
+    - THREAD_ID
+    - EVENT_ID
+    name: PRIMARY
+    unique: true
 name: events_statements_current
+type: TABLE

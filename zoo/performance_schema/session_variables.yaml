@@ -5,7 +5,7 @@ columns:
     generated: false
     name: VARIABLE_NAME
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   variable_value:
@@ -13,8 +13,15 @@ columns:
     dataType: 12
     generated: false
     name: VARIABLE_VALUE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
+indexes:
+  primary:
+    columns:
+    - VARIABLE_NAME
+    name: PRIMARY
+    unique: true
 name: session_variables
+type: TABLE

@@ -1,11 +1,11 @@
 columns:
   thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: THREAD_ID
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: true
     visible: true
   event_name:
@@ -14,12 +14,12 @@ columns:
     generated: false
     name: EVENT_NAME
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   count_star:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_STAR
     nullable: false
@@ -28,7 +28,7 @@ columns:
     visible: true
   sum_timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_TIMER_WAIT
     nullable: false
@@ -37,7 +37,7 @@ columns:
     visible: true
   min_timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MIN_TIMER_WAIT
     nullable: false
@@ -46,7 +46,7 @@ columns:
     visible: true
   avg_timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: AVG_TIMER_WAIT
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   max_timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MAX_TIMER_WAIT
     nullable: false
@@ -64,7 +64,7 @@ columns:
     visible: true
   sum_lock_time:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_LOCK_TIME
     nullable: false
@@ -73,7 +73,7 @@ columns:
     visible: true
   sum_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_ERRORS
     nullable: false
@@ -82,7 +82,7 @@ columns:
     visible: true
   sum_warnings:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_WARNINGS
     nullable: false
@@ -91,7 +91,7 @@ columns:
     visible: true
   sum_rows_affected:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_ROWS_AFFECTED
     nullable: false
@@ -100,7 +100,7 @@ columns:
     visible: true
   sum_rows_sent:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_ROWS_SENT
     nullable: false
@@ -109,7 +109,7 @@ columns:
     visible: true
   sum_rows_examined:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_ROWS_EXAMINED
     nullable: false
@@ -118,7 +118,7 @@ columns:
     visible: true
   sum_created_tmp_disk_tables:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_CREATED_TMP_DISK_TABLES
     nullable: false
@@ -127,7 +127,7 @@ columns:
     visible: true
   sum_created_tmp_tables:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_CREATED_TMP_TABLES
     nullable: false
@@ -136,7 +136,7 @@ columns:
     visible: true
   sum_select_full_join:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SELECT_FULL_JOIN
     nullable: false
@@ -145,7 +145,7 @@ columns:
     visible: true
   sum_select_full_range_join:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SELECT_FULL_RANGE_JOIN
     nullable: false
@@ -154,7 +154,7 @@ columns:
     visible: true
   sum_select_range:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SELECT_RANGE
     nullable: false
@@ -163,7 +163,7 @@ columns:
     visible: true
   sum_select_range_check:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SELECT_RANGE_CHECK
     nullable: false
@@ -172,7 +172,7 @@ columns:
     visible: true
   sum_select_scan:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SELECT_SCAN
     nullable: false
@@ -181,7 +181,7 @@ columns:
     visible: true
   sum_sort_merge_passes:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SORT_MERGE_PASSES
     nullable: false
@@ -190,7 +190,7 @@ columns:
     visible: true
   sum_sort_range:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SORT_RANGE
     nullable: false
@@ -199,7 +199,7 @@ columns:
     visible: true
   sum_sort_rows:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SORT_ROWS
     nullable: false
@@ -208,7 +208,7 @@ columns:
     visible: true
   sum_sort_scan:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_SORT_SCAN
     nullable: false
@@ -217,7 +217,7 @@ columns:
     visible: true
   sum_no_index_used:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_NO_INDEX_USED
     nullable: false
@@ -226,11 +226,55 @@ columns:
     visible: true
   sum_no_good_index_used:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_NO_GOOD_INDEX_USED
     nullable: false
     primaryKey: false
     unsigned: true
     visible: true
+  sum_cpu_time:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: SUM_CPU_TIME
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  max_controlled_memory:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: MAX_CONTROLLED_MEMORY
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  max_total_memory:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: MAX_TOTAL_MEMORY
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  count_secondary:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: COUNT_SECONDARY
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+indexes:
+  primary:
+    columns:
+    - THREAD_ID
+    - EVENT_NAME
+    name: PRIMARY
+    unique: true
 name: events_statements_summary_by_thread_by_event_name
+type: TABLE

@@ -1,0 +1,30 @@
+columns:
+  key_id:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: KEY_ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  key_owner:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: KEY_OWNER
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  backend_key_id:
+    caseSensitive: true
+    dataType: 12
+    generated: false
+    name: BACKEND_KEY_ID
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: keyring_keys
+type: TABLE

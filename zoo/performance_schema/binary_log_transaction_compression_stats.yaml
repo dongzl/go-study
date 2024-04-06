@@ -1,0 +1,129 @@
+columns:
+  log_type:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: LOG_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  compression_type:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: COMPRESSION_TYPE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  transaction_counter:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: TRANSACTION_COUNTER
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  compressed_bytes_counter:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: COMPRESSED_BYTES_COUNTER
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  uncompressed_bytes_counter:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: UNCOMPRESSED_BYTES_COUNTER
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  compression_percentage:
+    caseSensitive: false
+    dataType: 5
+    generated: false
+    name: COMPRESSION_PERCENTAGE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  first_transaction_id:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: FIRST_TRANSACTION_ID
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  first_transaction_compressed_bytes:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: FIRST_TRANSACTION_COMPRESSED_BYTES
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  first_transaction_uncompressed_bytes:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: FIRST_TRANSACTION_UNCOMPRESSED_BYTES
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  first_transaction_timestamp:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: FIRST_TRANSACTION_TIMESTAMP
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  last_transaction_id:
+    caseSensitive: false
+    dataType: -1
+    generated: false
+    name: LAST_TRANSACTION_ID
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  last_transaction_compressed_bytes:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: LAST_TRANSACTION_COMPRESSED_BYTES
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  last_transaction_uncompressed_bytes:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: LAST_TRANSACTION_UNCOMPRESSED_BYTES
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  last_transaction_timestamp:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: LAST_TRANSACTION_TIMESTAMP
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: binary_log_transaction_compression_stats
+type: TABLE

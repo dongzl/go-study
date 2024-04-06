@@ -1,0 +1,66 @@
+columns:
+  file_id:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: FILE_ID
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  file_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: FILE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  start_lsn:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: START_LSN
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  end_lsn:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: END_LSN
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  size_in_bytes:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: SIZE_IN_BYTES
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  is_full:
+    caseSensitive: false
+    dataType: -6
+    generated: false
+    name: IS_FULL
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  consumer_level:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: CONSUMER_LEVEL
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: innodb_redo_log_files
+type: TABLE

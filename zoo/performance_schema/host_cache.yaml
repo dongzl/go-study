@@ -5,21 +5,21 @@ columns:
     generated: false
     name: IP
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 12
     generated: false
     name: HOST
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   host_validated:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: HOST_VALIDATED
     nullable: false
@@ -28,7 +28,7 @@ columns:
     visible: true
   sum_connect_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_CONNECT_ERRORS
     nullable: false
@@ -37,7 +37,7 @@ columns:
     visible: true
   count_host_blocked_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_HOST_BLOCKED_ERRORS
     nullable: false
@@ -46,7 +46,7 @@ columns:
     visible: true
   count_nameinfo_transient_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_NAMEINFO_TRANSIENT_ERRORS
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   count_nameinfo_permanent_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_NAMEINFO_PERMANENT_ERRORS
     nullable: false
@@ -64,7 +64,7 @@ columns:
     visible: true
   count_format_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_FORMAT_ERRORS
     nullable: false
@@ -73,7 +73,7 @@ columns:
     visible: true
   count_addrinfo_transient_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_ADDRINFO_TRANSIENT_ERRORS
     nullable: false
@@ -82,7 +82,7 @@ columns:
     visible: true
   count_addrinfo_permanent_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_ADDRINFO_PERMANENT_ERRORS
     nullable: false
@@ -91,7 +91,7 @@ columns:
     visible: true
   count_fcrdns_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_FCRDNS_ERRORS
     nullable: false
@@ -100,7 +100,7 @@ columns:
     visible: true
   count_host_acl_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_HOST_ACL_ERRORS
     nullable: false
@@ -109,7 +109,7 @@ columns:
     visible: true
   count_no_auth_plugin_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_NO_AUTH_PLUGIN_ERRORS
     nullable: false
@@ -118,7 +118,7 @@ columns:
     visible: true
   count_auth_plugin_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_AUTH_PLUGIN_ERRORS
     nullable: false
@@ -127,7 +127,7 @@ columns:
     visible: true
   count_handshake_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_HANDSHAKE_ERRORS
     nullable: false
@@ -136,7 +136,7 @@ columns:
     visible: true
   count_proxy_user_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_PROXY_USER_ERRORS
     nullable: false
@@ -145,7 +145,7 @@ columns:
     visible: true
   count_proxy_user_acl_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_PROXY_USER_ACL_ERRORS
     nullable: false
@@ -154,7 +154,7 @@ columns:
     visible: true
   count_authentication_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_AUTHENTICATION_ERRORS
     nullable: false
@@ -163,7 +163,7 @@ columns:
     visible: true
   count_ssl_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_SSL_ERRORS
     nullable: false
@@ -172,7 +172,7 @@ columns:
     visible: true
   count_max_user_connections_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_MAX_USER_CONNECTIONS_ERRORS
     nullable: false
@@ -181,7 +181,7 @@ columns:
     visible: true
   count_max_user_connections_per_hour_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_MAX_USER_CONNECTIONS_PER_HOUR_ERRORS
     nullable: false
@@ -190,7 +190,7 @@ columns:
     visible: true
   count_default_database_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_DEFAULT_DATABASE_ERRORS
     nullable: false
@@ -199,7 +199,7 @@ columns:
     visible: true
   count_init_connect_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_INIT_CONNECT_ERRORS
     nullable: false
@@ -208,7 +208,7 @@ columns:
     visible: true
   count_local_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_LOCAL_ERRORS
     nullable: false
@@ -217,7 +217,7 @@ columns:
     visible: true
   count_unknown_errors:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_UNKNOWN_ERRORS
     nullable: false
@@ -247,7 +247,7 @@ columns:
     dataType: 93
     generated: false
     name: FIRST_ERROR_SEEN
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -256,8 +256,20 @@ columns:
     dataType: 93
     generated: false
     name: LAST_ERROR_SEEN
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
+indexes:
+  host:
+    columns:
+    - HOST
+    name: HOST
+    unique: false
+  primary:
+    columns:
+    - IP
+    name: PRIMARY
+    unique: true
 name: host_cache
+type: TABLE

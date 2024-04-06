@@ -10,20 +10,37 @@ columns:
     visible: true
   object_instance_begin:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: OBJECT_INSTANCE_BEGIN
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: true
     visible: true
   locked_by_thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: LOCKED_BY_THREAD_ID
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
+indexes:
+  primary:
+    columns:
+    - OBJECT_INSTANCE_BEGIN
+    name: PRIMARY
+    unique: true
+  locked_by_thread_id:
+    columns:
+    - LOCKED_BY_THREAD_ID
+    name: LOCKED_BY_THREAD_ID
+    unique: false
+  name:
+    columns:
+    - NAME
+    name: NAME
+    unique: false
 name: mutex_instances
+type: TABLE

@@ -1,0 +1,21 @@
+columns:
+  status_key:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: STATUS_KEY
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  status_value:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: STATUS_VALUE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: keyring_component_status
+type: TABLE

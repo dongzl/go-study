@@ -1,7 +1,7 @@
 columns:
   timer_name:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: TIMER_NAME
     nullable: false
@@ -10,29 +10,30 @@ columns:
     visible: true
   timer_frequency:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_FREQUENCY
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   timer_resolution:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_RESOLUTION
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   timer_overhead:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_OVERHEAD
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
 name: performance_timers
+type: TABLE

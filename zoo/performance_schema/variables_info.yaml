@@ -1,0 +1,75 @@
+columns:
+  variable_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: VARIABLE_NAME
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_source:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: VARIABLE_SOURCE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  variable_path:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: VARIABLE_PATH
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  min_value:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: MIN_VALUE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  max_value:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: MAX_VALUE
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  set_time:
+    caseSensitive: false
+    dataType: 93
+    generated: false
+    name: SET_TIME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  set_user:
+    caseSensitive: true
+    dataType: 1
+    generated: false
+    name: SET_USER
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  set_host:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: SET_HOST
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+name: variables_info
+type: TABLE

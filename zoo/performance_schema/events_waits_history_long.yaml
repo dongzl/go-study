@@ -1,7 +1,7 @@
 columns:
   thread_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: THREAD_ID
     nullable: false
@@ -10,7 +10,7 @@ columns:
     visible: true
   event_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: EVENT_ID
     nullable: false
@@ -19,10 +19,10 @@ columns:
     visible: true
   end_event_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: END_EVENT_ID
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -40,34 +40,34 @@ columns:
     dataType: 12
     generated: false
     name: SOURCE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   timer_start:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_START
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   timer_end:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_END
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: TIMER_WAIT
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -76,7 +76,7 @@ columns:
     dataType: 4
     generated: false
     name: SPINS
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
@@ -85,7 +85,7 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_SCHEMA
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -94,7 +94,7 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -103,7 +103,7 @@ columns:
     dataType: 12
     generated: false
     name: INDEX_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -112,13 +112,13 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_TYPE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   object_instance_begin:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: OBJECT_INSTANCE_BEGIN
     nullable: false
@@ -127,19 +127,19 @@ columns:
     visible: true
   nesting_event_id:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: NESTING_EVENT_ID
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
   nesting_event_type:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: NESTING_EVENT_TYPE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -154,10 +154,10 @@ columns:
     visible: true
   number_of_bytes:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: NUMBER_OF_BYTES
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -166,8 +166,9 @@ columns:
     dataType: 4
     generated: false
     name: FLAGS
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: true
     visible: true
 name: events_waits_history_long
+type: TABLE

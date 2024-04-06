@@ -1,0 +1,83 @@
+columns:
+  schema_name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: SCHEMA_NAME
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  digest:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: DIGEST
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+  bucket_number:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: BUCKET_NUMBER
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  bucket_timer_low:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: BUCKET_TIMER_LOW
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  bucket_timer_high:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: BUCKET_TIMER_HIGH
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  count_bucket:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: COUNT_BUCKET
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  count_bucket_and_lower:
+    caseSensitive: false
+    dataType: -5
+    generated: false
+    name: COUNT_BUCKET_AND_LOWER
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  bucket_quantile:
+    caseSensitive: false
+    dataType: 8
+    generated: false
+    name: BUCKET_QUANTILE
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  schema_name:
+    columns:
+    - SCHEMA_NAME
+    - DIGEST
+    - BUCKET_NUMBER
+    name: SCHEMA_NAME
+    unique: true
+name: events_statements_histogram_by_digest
+type: TABLE

@@ -1,11 +1,11 @@
 columns:
   host:
-    caseSensitive: true
+    caseSensitive: false
     dataType: 1
     generated: false
     name: HOST
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   user:
@@ -14,7 +14,7 @@ columns:
     generated: false
     name: USER
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   role:
@@ -23,12 +23,12 @@ columns:
     generated: false
     name: ROLE
     nullable: false
-    primaryKey: false
+    primaryKey: true
     unsigned: false
     visible: true
   enabled:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: ENABLED
     nullable: false
@@ -37,11 +37,20 @@ columns:
     visible: true
   history:
     caseSensitive: false
-    dataType: 12
+    dataType: 1
     generated: false
     name: HISTORY
     nullable: false
     primaryKey: false
     unsigned: false
     visible: true
+indexes:
+  primary:
+    columns:
+    - HOST
+    - USER
+    - ROLE
+    name: PRIMARY
+    unique: true
 name: setup_actors
+type: TABLE

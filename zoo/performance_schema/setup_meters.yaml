@@ -1,0 +1,45 @@
+columns:
+  name:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: NAME
+    nullable: false
+    primaryKey: true
+    unsigned: false
+    visible: true
+  frequency:
+    caseSensitive: false
+    dataType: 4
+    generated: false
+    name: FREQUENCY
+    nullable: false
+    primaryKey: false
+    unsigned: true
+    visible: true
+  enabled:
+    caseSensitive: false
+    dataType: 1
+    generated: false
+    name: ENABLED
+    nullable: false
+    primaryKey: false
+    unsigned: false
+    visible: true
+  description:
+    caseSensitive: false
+    dataType: 12
+    generated: false
+    name: DESCRIPTION
+    nullable: true
+    primaryKey: false
+    unsigned: false
+    visible: true
+indexes:
+  primary:
+    columns:
+    - NAME
+    name: PRIMARY
+    unique: true
+name: setup_meters
+type: TABLE

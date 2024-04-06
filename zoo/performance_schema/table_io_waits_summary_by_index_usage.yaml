@@ -4,7 +4,7 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_TYPE
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -13,7 +13,7 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_SCHEMA
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -22,7 +22,7 @@ columns:
     dataType: 12
     generated: false
     name: OBJECT_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
@@ -31,13 +31,13 @@ columns:
     dataType: 12
     generated: false
     name: INDEX_NAME
-    nullable: false
+    nullable: true
     primaryKey: false
     unsigned: false
     visible: true
   count_star:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_STAR
     nullable: false
@@ -46,7 +46,7 @@ columns:
     visible: true
   sum_timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_TIMER_WAIT
     nullable: false
@@ -55,7 +55,7 @@ columns:
     visible: true
   min_timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MIN_TIMER_WAIT
     nullable: false
@@ -64,7 +64,7 @@ columns:
     visible: true
   avg_timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: AVG_TIMER_WAIT
     nullable: false
@@ -73,7 +73,7 @@ columns:
     visible: true
   max_timer_wait:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MAX_TIMER_WAIT
     nullable: false
@@ -82,7 +82,7 @@ columns:
     visible: true
   count_read:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_READ
     nullable: false
@@ -91,7 +91,7 @@ columns:
     visible: true
   sum_timer_read:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_TIMER_READ
     nullable: false
@@ -100,7 +100,7 @@ columns:
     visible: true
   min_timer_read:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MIN_TIMER_READ
     nullable: false
@@ -109,7 +109,7 @@ columns:
     visible: true
   avg_timer_read:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: AVG_TIMER_READ
     nullable: false
@@ -118,7 +118,7 @@ columns:
     visible: true
   max_timer_read:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MAX_TIMER_READ
     nullable: false
@@ -127,7 +127,7 @@ columns:
     visible: true
   count_write:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_WRITE
     nullable: false
@@ -136,7 +136,7 @@ columns:
     visible: true
   sum_timer_write:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_TIMER_WRITE
     nullable: false
@@ -145,7 +145,7 @@ columns:
     visible: true
   min_timer_write:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MIN_TIMER_WRITE
     nullable: false
@@ -154,7 +154,7 @@ columns:
     visible: true
   avg_timer_write:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: AVG_TIMER_WRITE
     nullable: false
@@ -163,7 +163,7 @@ columns:
     visible: true
   max_timer_write:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MAX_TIMER_WRITE
     nullable: false
@@ -172,7 +172,7 @@ columns:
     visible: true
   count_fetch:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_FETCH
     nullable: false
@@ -181,7 +181,7 @@ columns:
     visible: true
   sum_timer_fetch:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_TIMER_FETCH
     nullable: false
@@ -190,7 +190,7 @@ columns:
     visible: true
   min_timer_fetch:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MIN_TIMER_FETCH
     nullable: false
@@ -199,7 +199,7 @@ columns:
     visible: true
   avg_timer_fetch:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: AVG_TIMER_FETCH
     nullable: false
@@ -208,7 +208,7 @@ columns:
     visible: true
   max_timer_fetch:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MAX_TIMER_FETCH
     nullable: false
@@ -217,7 +217,7 @@ columns:
     visible: true
   count_insert:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_INSERT
     nullable: false
@@ -226,7 +226,7 @@ columns:
     visible: true
   sum_timer_insert:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_TIMER_INSERT
     nullable: false
@@ -235,7 +235,7 @@ columns:
     visible: true
   min_timer_insert:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MIN_TIMER_INSERT
     nullable: false
@@ -244,7 +244,7 @@ columns:
     visible: true
   avg_timer_insert:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: AVG_TIMER_INSERT
     nullable: false
@@ -253,7 +253,7 @@ columns:
     visible: true
   max_timer_insert:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MAX_TIMER_INSERT
     nullable: false
@@ -262,7 +262,7 @@ columns:
     visible: true
   count_update:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_UPDATE
     nullable: false
@@ -271,7 +271,7 @@ columns:
     visible: true
   sum_timer_update:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_TIMER_UPDATE
     nullable: false
@@ -280,7 +280,7 @@ columns:
     visible: true
   min_timer_update:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MIN_TIMER_UPDATE
     nullable: false
@@ -289,7 +289,7 @@ columns:
     visible: true
   avg_timer_update:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: AVG_TIMER_UPDATE
     nullable: false
@@ -298,7 +298,7 @@ columns:
     visible: true
   max_timer_update:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MAX_TIMER_UPDATE
     nullable: false
@@ -307,7 +307,7 @@ columns:
     visible: true
   count_delete:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: COUNT_DELETE
     nullable: false
@@ -316,7 +316,7 @@ columns:
     visible: true
   sum_timer_delete:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: SUM_TIMER_DELETE
     nullable: false
@@ -325,7 +325,7 @@ columns:
     visible: true
   min_timer_delete:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MIN_TIMER_DELETE
     nullable: false
@@ -334,7 +334,7 @@ columns:
     visible: true
   avg_timer_delete:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: AVG_TIMER_DELETE
     nullable: false
@@ -343,11 +343,21 @@ columns:
     visible: true
   max_timer_delete:
     caseSensitive: false
-    dataType: 4
+    dataType: -5
     generated: false
     name: MAX_TIMER_DELETE
     nullable: false
     primaryKey: false
     unsigned: true
     visible: true
+indexes:
+  object:
+    columns:
+    - OBJECT_TYPE
+    - OBJECT_SCHEMA
+    - OBJECT_NAME
+    - INDEX_NAME
+    name: OBJECT
+    unique: true
 name: table_io_waits_summary_by_index_usage
+type: TABLE
