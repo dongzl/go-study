@@ -23,3 +23,13 @@ func TestName(t *testing.T) {
 	fmt.Println("after reassign 1st elem of slice, array:", u)
 	fmt.Printf("after reassign 1st elem of slice, slice(len=%d, cap=%d): %v\n", len(s), cap(s), s)
 }
+
+func Test_slice(t *testing.T) {
+	u := []int{11, 12, 13, 14, 15}
+	fmt.Println("array:", u) // [11, 12, 13, 14, 15]
+	s := u[1:3]
+	fmt.Printf("slice(len=%d, cap=%d): %v\n", len(s), cap(s), s) // [12, 13]
+	s[0] = 15
+	fmt.Println("array:", u)                                     // [11, 12, 13, 14, 15]
+	fmt.Printf("slice(len=%d, cap=%d): %v\n", len(s), cap(s), s) // [12, 13]
+}
