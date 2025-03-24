@@ -33,3 +33,19 @@ func Test_slice(t *testing.T) {
 	fmt.Println("array:", u)                                     // [11, 12, 13, 14, 15]
 	fmt.Printf("slice(len=%d, cap=%d): %v\n", len(s), cap(s), s) // [12, 13]
 }
+
+func Test_slice_append(t *testing.T) {
+	s := []byte{1, 2, 3, 4, 5, 6}
+
+	s1 := s[:3]
+	s2 := s[3:]
+
+	fmt.Println("s:", s)
+	fmt.Println("s1:", s1)
+	fmt.Println("s2:", s2)
+
+	_ = append(s1, 6)
+	fmt.Println("s:", s)
+	fmt.Println("s1:", s1)
+	fmt.Println("s2:", s2)
+}
