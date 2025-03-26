@@ -1,6 +1,6 @@
 module github.com/arana-db/arana
 
-go 1.18
+go 1.22
 
 require (
 	github.com/beevik/etree v1.1.0
