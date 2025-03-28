@@ -1,3 +1,3 @@
-module day3-router
+module day4-group
 
 go 1.22.4
