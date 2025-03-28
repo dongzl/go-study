@@ -20,6 +20,7 @@ func onlyForV2() gee.HandlerFunc {
 
 func main() {
 	r := gee.New()
+	r.Use(gee.Logger()) // global midlleware
 	r.GET("/", func(c *gee.Context) {
 		c.HTML(http.StatusOK, "<h1>Hello Gee</h1>")
 	})
