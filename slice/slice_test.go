@@ -49,3 +49,27 @@ func Test_slice_append(t *testing.T) {
 	fmt.Println("s1:", s1)
 	fmt.Println("s2:", s2)
 }
+
+func Test_rune(t *testing.T) {
+	first := "fisrt"
+	fmt.Println([]rune(first))
+	fmt.Println([]byte(first))
+
+	first1 := "社区"
+	fmt.Println([]rune(first1))
+	fmt.Println([]byte(first1))
+
+	s := "golangcaff"
+	fmt.Println(s[:3])
+
+	s1 := "截取中文"
+	//试试这样能不能截取?
+	fmt.Println(s1[:2])
+
+	res := []rune(s1)
+	fmt.Println(string(res[:2]))
+
+	s2 := "截取中文"
+	//试试这样能不能截取?
+	fmt.Println(s2[:3])
+}
